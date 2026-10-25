@@ -1,0 +1,142 @@
+name: Publish pull request preview
+
+on:
+  workflow_run:
+    workflows: [Validate pull request]
+    types: [completed]
+  pull_request_target:
+    branches: [main]
+    types: [closed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+  pull-requests: write
+
+concurrency:
+  group: preview-publisher
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      # Only trusted default-branch code is checked out. PR artifacts are never executed.
+      - name: Check out trusted publishing tools
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: false
+          path: tools
+      - name: Validate event and select current pull request
+        id: pr
+        uses: actions/github-script@v7
+        with:
+          script: |
+            if (context.eventName !== 'workflow_run') {
+              core.setOutput('publish', 'false');
+              return;
+            }
+            const run = context.payload.workflow_run;
+            if (run.event !== 'pull_request' || run.head_repository?.full_name !== `${context.repo.owner}/${context.repo.repo}`) {
+              core.notice('Previews are limited to branches in this repository.');
+              core.setOutput('publish', 'false');
+              return;
+            }
+            const prs = await github.paginate(github.rest.pulls.list, {
+              ...context.repo, state: 'open', head: `${context.repo.owner}:${run.head_branch}`, per_page: 100
+            });
+            const pr = prs.find(p => p.head.sha === run.head_sha && p.base.ref === 'main'
+              && p.head.repo?.full_name === `${context.repo.owner}/${context.repo.repo}`);
+            core.setOutput('publish', pr ? 'true' : 'false');
+            if (pr) {
+              core.setOutput('number', String(pr.number));
+              core.setOutput('sha', pr.head.sha);
+            } else {
+              core.notice('Closed or outdated PR: nothing will be published.');
+            }
+      - name: Download compiled website (untrusted static files only)
+        if: steps.pr.outputs.publish == 'true'
+        uses: actions/download-artifact@v4
+        with:
+          name: preview-site
+          path: incoming
+          github-token: ${{ github.token }}
+          run-id: ${{ github.event.workflow_run.id }}
+      - name: Check out preview storage
+        uses: actions/checkout@v4
+        with:
+          repository: AlejandroValtierraCarbonero/deuda-abierta-previews
+          ref: main
+          ssh-key: ${{ secrets.PREVIEW_DEPLOY_KEY }}
+          path: site
+      - name: Get currently open previews
+        uses: actions/github-script@v7
+        env:
+          PREVIEW_NUMBER: ${{ steps.pr.outputs.number }}
+          PREVIEW_SHA: ${{ steps.pr.outputs.sha }}
+        with:
+          script: |
+            const fs = require('node:fs');
+            const prs = await github.paginate(github.rest.pulls.list, {
+              ...context.repo, state: 'open', base: 'main', per_page: 100
+            });
+            const allowed = prs.filter(p => p.head.repo?.full_name === `${context.repo.owner}/${context.repo.repo}`);
+            fs.writeFileSync('open-prs.json', JSON.stringify(allowed.map(p => p.number)));
+            if (process.env.PREVIEW_NUMBER) {
+              const pr = allowed.find(p => String(p.number) === process.env.PREVIEW_NUMBER);
+              if (!pr || pr.head.sha !== process.env.PREVIEW_SHA) {
+                core.setFailed('The pull request changed while preparing publication; refusing a stale preview.');
+              }
+            }
+      - name: Assemble and clean static previews
+        run: node tools/scripts/publish-preview.mjs
+        env:
+          PREVIEW_NUMBER: ${{ steps.pr.outputs.number }}
+          PREVIEW_SHA: ${{ steps.pr.outputs.sha }}
+      - name: Publish preview repository
+        working-directory: site
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "Update pull request previews"
+            git push origin main
+          fi
+      - name: Add preview link to pull request
+        if: steps.pr.outputs.publish == 'true'
+        uses: actions/github-script@v7
+        env:
+          PREVIEW_NUMBER: ${{ steps.pr.outputs.number }}
+          PREVIEW_SHA: ${{ steps.pr.outputs.sha }}
+        with:
+          script: |
+            const number = Number(process.env.PREVIEW_NUMBER);
+            const marker = '<!-- deuda-abierta-preview -->';
+            const url = `https://alejandrovaltierracarbonero.github.io/deuda-abierta-previews/pr-${number}/`;
+            const body = `${marker}\n## Vista de prueba\n\n🌐 **[Abrir preview de la PR #${number}](${url})**\n\nCommit: \`${process.env.PREVIEW_SHA}\`.\n\nLas pruebas y la compilación han pasado. GitHub Pages puede tardar unos minutos en publicar. Comprueba que el commit del aviso superior coincide con este comentario.\n\nProducción no se modifica. Pide ajustes con \`@copilot\` en esta PR o fusiónala cuando estés conforme. La preview se elimina al cerrar la PR.\n\n⚠️ Esta vista ejecuta código de la PR, es pública y comparte dominio con otros sitios Pages de esta cuenta. No introduzcas credenciales ni información sensible.`;
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              ...context.repo, issue_number: number, per_page: 100
+            });
+            const existing = comments.find(c => c.user?.login === 'github-actions[bot]' && c.body?.includes(marker));
+            if (existing) await github.rest.issues.updateComment({ ...context.repo, comment_id: existing.id, body });
+            else await github.rest.issues.createComment({ ...context.repo, issue_number: number, body });
+      - name: Mark closed preview
+        if: github.event_name == 'pull_request_target'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const number = context.payload.pull_request.number;
+            const marker = '<!-- deuda-abierta-preview -->';
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              ...context.repo, issue_number: number, per_page: 100
+            });
+            const existing = comments.find(c => c.user?.login === 'github-actions[bot]' && c.body?.includes(marker));
+            if (existing) await github.rest.issues.updateComment({
+              ...context.repo, comment_id: existing.id,
+              body: `${marker}\n## Vista de prueba cerrada\n\nEsta PR se ha cerrado. Su preview se ha retirado; Pages puede tardar unos minutos en reflejarlo.`
+            });

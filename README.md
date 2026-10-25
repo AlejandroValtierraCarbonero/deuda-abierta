@@ -60,6 +60,50 @@ compilacion fallan, no se despliega y se conserva la web anterior.
 - Fuentes y metodologia, originales descargados y catalogo de futuras ampliaciones.
 - Diseno responsive, navegacion por teclado, tablas alternativas y estados de error.
 
+## Pedir cambios y probarlos desde GitHub Mobile
+
+1. En GitHub Mobile, abre Copilot > New Session y selecciona este repositorio,
+   o crea una issue y asignala a Copilot si tu cuenta tiene acceso al agente.
+2. Pide el cambio indicando: "Crea una pull request contra main. No la fusiones".
+3. En la PR, espera a **Tests and build**. Las ejecuciones de Copilot o de
+   colaboradores pueden requerir que apruebes los workflows desde GitHub.
+4. El bot publica un comentario **Vista de prueba**, con un enlace como
+   `https://alejandrovaltierracarbonero.github.io/deuda-abierta-previews/pr-12/`.
+   Abre el enlace en el navegador del movil y comprueba el commit del aviso superior.
+5. Pide ajustes con `@copilot` en la PR. Cada nuevo commit validado actualiza la preview.
+6. Cuando estes conforme, fusiona la PR. Solo entonces se actualiza produccion.
+   Si la cierras sin fusionar, produccion no cambia y la preview se retira.
+
+### Arquitectura y permisos
+
+- `pr-checks.yml` ejecuta codigo de PR con token de lectura, sin secretos y sin
+  credenciales Git persistidas. Los PR de forks pasan CI pero no reciben preview.
+- `preview-publish.yml` se ejecuta con herramientas de `main`, nunca scripts de
+  la PR. Comprueba que la PR esta abierta, procede de este repositorio y que el
+  SHA sigue vigente. Copia solamente el resultado estatico; nunca lo ejecuta.
+- Una clave SSH de despliegue con escritura esta limitada al repositorio
+  `deuda-abierta-previews`. Su parte privada es el secreto `PREVIEW_DEPLOY_KEY`;
+  no se almacena en el codigo. No permite modificar el repositorio de produccion.
+- El repositorio de previews usa Pages desde su rama `main`, sin ejecutar
+  workflows aportados en los artefactos. El publicador rechaza archivos ocultos
+  y enlaces simbolicos y limita el tamano de cada preview a 50 MB.
+- Se serializa la publicacion para conservar previews simultaneas. Al cerrar una
+  PR se retiran las carpetas de PR cerradas. Si una ejecucion queda pendiente
+  por concurrencia, se puede reconciliar con **Publish pull request preview >
+  Run workflow**; esta accion manual limpia, no construye PRs.
+- Las previews son publicas y comparten el origen `github.io` de esta cuenta
+  con produccion aunque esten en otro repositorio. No hay aislamiento de
+  seguridad por dominio: no usar para cambios de autores no confiables, login,
+  secretos ni informacion sensible. Para aislar origen se necesita otro dominio
+  o proveedor de previews.
+- Pages puede tardar unos minutos en actualizar el contenido. Una compilacion
+  fallida no reemplaza la ultima preview valida: revisa siempre el SHA mostrado.
+
+`main` exige la comprobacion **Tests and build** y una PR. No se exige una
+aprobacion de otro usuario para permitir el trabajo individual; el propietario
+administrador puede saltarse la proteccion. El acceso a Copilot y sus cuotas
+dependen de la cuenta, independientemente de que Pages sea gratuito.
+
 ## Datos y actualizaciones
 
 [Sincronizador](scripts/sync-data.mjs) descarga 12 cuadros oficiales y publica

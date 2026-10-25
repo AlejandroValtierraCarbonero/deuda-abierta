@@ -1,8 +1,9 @@
 # Deuda Abierta
 
 Observatorio de la deuda espanola construido con Vue 3, TypeScript y Vite.
-Usa exclusivamente ficheros publicados por el Banco de Espana, sin datos simulados
-ni servicios de terceros. El catalogo inicial permanece en la raiz del proyecto.
+La aplicacion usa ficheros publicados por el Banco de Espana, sin datos simulados
+ni servicios de terceros. Los catalogos de las fuentes oficiales estan organizados
+por organismo en [catalogos](catalogos/README.md).
 
 - [Web publicada](https://alejandrovaltierracarbonero.github.io/deuda-abierta/)
 - [Repositorio](https://github.com/AlejandroValtierraCarbonero/deuda-abierta)
@@ -57,7 +58,8 @@ compilacion fallan, no se despliega y se conserva la web anterior.
 - Emisiones brutas/netas de las AAPP y rendimientos de bonos y obligaciones.
 - Explorador de todas las series integradas con busqueda, filtros, metadatos,
   descarga y enlaces compartibles que conservan la seleccion.
-- Fuentes y metodologia, originales descargados y catalogo de futuras ampliaciones.
+- Fuentes y metodologia, originales descargados y catalogos de informacion del BdE,
+  la IGAE, el Tesoro y Eurostat.
 - Diseno responsive, navegacion por teclado, tablas alternativas y estados de error.
 
 ## Pedir cambios y probarlos desde GitHub Mobile

@@ -24,6 +24,7 @@ por lo que no es necesario acceder al BdE para consultar la aplicacion.
 ```powershell
 npm run data:sync
 npm run data:sync:tesoro
+npm run data:sync:tesoro:finance
 npm test
 npm run build
 npm run preview
@@ -59,6 +60,9 @@ compilacion fallan, no se despliega y se conserva la web anterior.
 - Vista independiente de vencimientos anuales de valores del Estado, con barras
   apiladas de letras y bonos/obligaciones, tabla y originales del Tesoro.
   Selector de fotografias historicas reales capturadas entre 2019 y 2025.
+- Panel de amortizaciones realizadas, emisiones y financiacion neta del Tesoro
+  dentro de la vista de vencimientos, con selector de ejercicio, barras mensuales,
+  tabla por instrumento y previsiones opcionales separadas de los realizados.
 - Cascada de conciliacion trimestral entre deficit y variacion de deuda.
 - Emisiones brutas/netas de las AAPP y rendimientos de bonos y obligaciones.
 - Explorador de todas las series integradas con busqueda, filtros, metadatos,
@@ -66,6 +70,42 @@ compilacion fallan, no se despliega y se conserva la web anterior.
 - Fuentes y metodologia, originales descargados y catalogos de informacion del BdE,
   la IGAE, el Tesoro y Eurostat.
 - Diseno responsive, navegacion por teclado, tablas alternativas y estados de error.
+
+## Amortizaciones realizadas y financiacion del Tesoro
+
+El panel inferior de `#vencimientos` usa el cuadro 13 del Tesoro, no las series
+brutas/netas del BdE ni diferencias entre fotografias de valores vivos.
+Selecciona uno de los dos ejercicios disponibles en el Excel oficial.
+El selector de fotografia historica no afecta a este panel.
+
+```powershell
+npm run data:sync:tesoro:finance
+```
+
+La sincronizacion descarga el Excel y la pagina de estadisticas mensuales.
+La edicion del boletin fija el corte: los meses posteriores son previsiones,
+nunca amortizaciones realizadas. Las emisiones y la financiacion neta de
+esos meses se guardan como no disponibles, no como cero. Los tres indicadores
+y el total de la tabla solo suman realizados, incluso al mostrar previsiones.
+Las hojas acumuladas no se suman a las mensuales ni se duplican los detalles
+diarios; se usa el total mensual y se comprueba el total anual de amortizaciones.
+Se validan unidades, cabeceras, cobertura, totales e identidad entre emisiones,
+amortizaciones y financiacion neta. Un cambio de formato incompatible falla
+sin sustituir el snapshot anterior.
+
+Se conservan el Excel, el HTML del boletin como texto y sus SHA-256 bajo
+`public/data/raw/`; `public/data/tesoro-finance.json` es el snapshot independiente.
+La app no necesita consultar al Tesoro en directo y permite reintentar errores
+de carga sin bloquear el calendario de vencimientos.
+
+Son importes efectivos segun la convencion del cuadro: cuando el efectivo
+de emision supera al nominal, el Tesoro registra la emision por el nominal
+y la diferencia en el capitulo 3 de ingresos. Incluye resto y deuda asumida.
+No es una conciliacion por ISIN ni una medida de intereses; no se suma
+directamente a los saldos pendientes de otras fechas y cobertura. Las
+amortizaciones pueden refinanciarse y no equivalen a reduccion neta de deuda.
+Los originales oficiales enlazados pueden actualizarse; los guardados
+permiten reproducir la edicion concreta.
 
 ## Pedir cambios y probarlos desde GitHub Mobile
 

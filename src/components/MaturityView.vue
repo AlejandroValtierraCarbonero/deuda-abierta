@@ -4,6 +4,7 @@ import type { MaturitySnapshot } from '../types'
 import { annualMaturities, validateMaturityHistory, validateMaturitySnapshot } from '../lib/maturities.mjs'
 import { dateLabel, number } from '../lib/format'
 import AppIcon from './AppIcon.vue'
+import FinancePanel from './FinancePanel.vue'
 
 const current = ref<MaturitySnapshot | null>(null)
 const historical = ref<MaturitySnapshot[]>([])
@@ -140,6 +141,7 @@ onMounted(load)
       <p>Las vistas históricas se calculan a partir de los ISIN y saldos realmente publicados en cada captura archivada. No se reconstruyen restando vencimientos a la foto actual. Algunas capturas contienen datos del mes o año anterior: por ejemplo, la del 7 de enero de 2019 conserva saldos de diciembre de 2018.</p>
     </section>
   </template>
+  <FinancePanel />
 </template>
 
 <style scoped>

@@ -45,6 +45,7 @@ export interface MaturitySnapshot {
     url: string
     rawUrl: string
     hash: string
+    archive?: { capturedAt: string; url: string }
   }
   referenceDates: { letras: string; bonos: string }
   unit: 'Millones de euros'

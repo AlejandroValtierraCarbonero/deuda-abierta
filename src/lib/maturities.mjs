@@ -31,6 +31,22 @@ export function validateMaturitySnapshot(data) {
     throw new Error('Los metadatos de los vencimientos del Tesoro no son válidos.')
   }
   const seen = new Set()
+  if ('archive' in source) {
+    const archive = source.archive
+    if (!archive || typeof archive !== 'object' || !('capturedAt' in archive) || typeof archive.capturedAt !== 'string'
+      || !/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$/.test(archive.capturedAt)
+      || !Number.isFinite(Date.parse(archive.capturedAt)) || new Date(archive.capturedAt).toISOString().replace('.000Z', 'Z') !== archive.capturedAt
+      || archive.capturedAt > data.retrievedAt || !('url' in archive) || typeof archive.url !== 'string') {
+      throw new Error('La procedencia de la captura histórica no es válida.')
+    }
+    const stamp = archive.capturedAt.replace(/\D/g, '')
+    const allowedUrls = [maturitySourceUrl, maturitySourceUrl.replace('https:', 'http:').replace('.es/', '.es:80/')]
+      .map(url => `https://web.archive.org/web/${stamp}id_/${url}`)
+    if (!allowedUrls.includes(archive.url)
+      || referenceDates.letras > archive.capturedAt.slice(0, 10) || referenceDates.bonos > archive.capturedAt.slice(0, 10)) {
+      throw new Error('La URL o las fechas de la captura histórica no son válidas.')
+    }
+  }
   for (const security of securities) {
     if (!security || typeof security !== 'object' || !/^ES[A-Z0-9]{10}$/.test(security.isin)
       || seen.has(security.isin) || !['letras', 'bonos'].includes(security.instrument)
@@ -40,10 +56,29 @@ export function validateMaturitySnapshot(data) {
       || Math.abs(security.amount * 10 - Math.round(security.amount * 10)) > 1e-6) {
       throw new Error(`Valor del Tesoro inválido o duplicado: ${security?.isin ?? 'sin ISIN'}.`)
     }
+
     seen.add(security.isin)
   }
   if (!['letras', 'bonos'].every(instrument => securities.some(s => s.instrument === instrument))) {
     throw new Error('Falta la cobertura de letras o bonos y obligaciones del Tesoro.')
+  }
+}
+
+/**
+ * @param {unknown} data
+ * @returns {asserts data is { version: 1, snapshots: import('../types').MaturitySnapshot[] }}
+ */
+export function validateMaturityHistory(data) {
+  if (!data || typeof data !== 'object' || !('version' in data) || data.version !== 1
+    || !('snapshots' in data) || !Array.isArray(data.snapshots) || !data.snapshots.length) {
+    throw new Error('El histórico de vencimientos no tiene el formato esperado.')
+  }
+  const captures = new Set()
+  for (const snapshot of data.snapshots) {
+    validateMaturitySnapshot(snapshot)
+    const capture = snapshot.source.archive?.capturedAt
+    if (!capture || captures.has(capture)) throw new Error('Captura histórica ausente o duplicada.')
+    captures.add(capture)
   }
 }
 

@@ -8,20 +8,25 @@ function calendarDate(value) {
   return date
 }
 
-export function parseTesoro(html) {
+export function parseTesoro(html, legacy = false) {
   const $ = load(html)
   const securities = []
   const referenceDates = {}
   for (const [id, instrument, columns] of [['tablaLetras', 'letras', 3], ['tablaByo', 'bonos', 5]]) {
-    const table = $(`table#${id}`)
-    const section = table.closest('.circ-section')
+    const table = legacy
+      ? $('.view-valores-del-tesoro table').filter((_, element) => $(element).find('thead th').length === columns)
+      : $(`table#${id}`)
+    const section = table.closest(legacy ? '.view-valores-del-tesoro' : '.circ-section')
     const headers = table.find('thead th').map((_, cell) => $(cell).text().trim()).get()
     if (table.length !== 1 || headers.length !== columns || headers[0] !== 'Código ISIN'
       || headers[1] !== 'Fecha de vencimiento' || !headers[2].startsWith('Saldo en circulación')
-      || !/Importes en millones de euros/.test(section.find('.circ-section-sub').text())) {
+      || !/Importes en millones de euros/.test(legacy ? section.children('.view-header').text() : section.find('.circ-section-sub').text())
+      || (legacy && !(instrument === 'letras' ? /Letras del Tesoro/ : /Bonos y Obligaciones/).test(section.children('.view-header').text()))) {
       throw new Error(`Tabla del Tesoro ausente o con formato inesperado: ${id}`)
     }
-    const reference = /Datos a (\d{2}\/\d{2}\/\d{4})/.exec(section.find('.circ-footnote').text())
+    const footer = legacy ? section.children('.view-footer').clone() : section.find('.circ-footnote')
+    if (legacy) footer.find('.view-valores-del-tesoro').remove()
+    const reference = /Datos a (\d{2}\/\d{2}\/\d{4})/.exec(footer.text())
     if (!reference) throw new Error(`Falta la fecha de referencia del Tesoro: ${id}`)
     referenceDates[instrument] = calendarDate(reference[1])
     const rows = table.find('tbody tr')

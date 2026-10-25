@@ -1,8 +1,9 @@
 # Deuda Abierta
 
 Observatorio de la deuda espanola construido con Vue 3, TypeScript y Vite.
-Usa datos oficiales del Banco de Espana y del Tesoro Publico, sin datos simulados
-ni servicios intermediarios. Los catalogos de las fuentes oficiales estan organizados
+Usa datos oficiales del Banco de Espana y del Tesoro Publico, sin datos simulados.
+Las copias historicas del Tesoro proceden de Internet Archive.
+Los catalogos de las fuentes oficiales estan organizados
 por organismo en [catalogos](catalogos/README.md).
 
 - [Web publicada](https://alejandrovaltierracarbonero.github.io/deuda-abierta/)
@@ -57,6 +58,7 @@ compilacion fallan, no se despliega y se conserva la web anterior.
 - Tenedores, instrumentos y plazos residuales verificados.
 - Vista independiente de vencimientos anuales de valores del Estado, con barras
   apiladas de letras y bonos/obligaciones, tabla y originales del Tesoro.
+  Selector de fotografias historicas reales capturadas entre 2019 y 2025.
 - Cascada de conciliacion trimestral entre deficit y variacion de deuda.
 - Emisiones brutas/netas de las AAPP y rendimientos de bonos y obligaciones.
 - Explorador de todas las series integradas con busqueda, filtros, metadatos,
@@ -160,6 +162,39 @@ autonomica/local e intereses. No se suma al saldo del BdE ni anticipa emisiones,
 reaperturas o recompras futuras. Los bonos indexados usan el saldo ajustado
 publicado, no saldo mas valor facial; su amortizacion final depende de la
 inflacion futura. Las dos fechas de referencia no son una fotografia unica.
+
+#### Como era el perfil en anos anteriores
+
+El selector de la vista ofrece siete copias del listado oficial conservadas por
+**Internet Archive**, ademas del snapshot actual. No se reconstruye el pasado
+filtrando los valores actuales: se usan los ISIN y saldos publicados entonces,
+incluidos los valores que hoy ya estan amortizados.
+
+[El importador historico](scripts/sync-tesoro-history.mjs) usa capturas fijadas
+del indice CDX de la URL oficial, conserva su HTML como texto y huella SHA-256 y
+publica [el historico](public/data/maturity-history.json) solo tras validarlo
+completo. Se ejecuta con `npm run data:sync:tesoro:history`; la sincronizacion
+actual no modifica este archivo. Las capturas historicas se descargan al
+repositorio: el navegador no consulta Internet Archive para dibujar el grafico.
+
+| Captura archivada | Referencia letras | Referencia bonos |
+| --- | --- | --- |
+| 07/01/2019 | 14/12/2018 | 31/12/2018 |
+| 05/02/2020 | 24/01/2020 | 31/01/2020 |
+| 13/05/2021 | 07/05/2021 | 11/05/2021 |
+| 08/03/2022 | 04/03/2022 | 28/02/2022 |
+| 29/03/2023 | 17/03/2023 | 21/03/2023 |
+| 19/04/2024 | 19/04/2024 | 09/04/2024 |
+| 10/02/2025 | 07/02/2025 | 31/01/2025 |
+
+No son cierres anuales ni una serie mensual completa. La fecha de captura es
+distinta de la fecha de los saldos y de nuestra descarga; todas se muestran por
+separado. Los enlaces compartidos conservan la seleccion en `tesoroFoto`.
+Las barras y la tabla cambian juntas; la escala vertical se adapta a cada foto.
+No se muestran avisos de datos desactualizados para las capturas historicas,
+porque su antiguedad es intencional. Los importes siguen la misma cobertura y
+reglas de indexacion que el perfil actual. Antes de comparar, comprobar las
+fechas de referencia y los importes, no solo las alturas de las barras.
 
 Se distingue **fecha de descarga** de **periodo de observacion**. Los CSV utilizados
 no proporcionan una fecha de publicacion inequivoca; `publishedAt` es `null`.

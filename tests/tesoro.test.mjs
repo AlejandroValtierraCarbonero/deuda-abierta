@@ -3,7 +3,7 @@ import assert from 'node:assert/strict'
 import { readFile } from 'node:fs/promises'
 import { createHash } from 'node:crypto'
 import { parseTesoro } from '../scripts/tesoro.mjs'
-import { annualMaturities, validateMaturitySnapshot, isCalendarDate } from '../src/lib/maturities.mjs'
+import { annualMaturities, validateMaturityHistory, validateMaturitySnapshot, isCalendarDate } from '../src/lib/maturities.mjs'
 
 function table(id, date, rows, bonos = false) {
   return `<div class="circ-section"><div class="circ-section-sub">(Importes en millones de euros)</div>
@@ -98,4 +98,57 @@ test('committed Tesoro snapshot matches the original, fingerprint and annual tot
       assert.equal(row[instrument], securities.filter(s => s.instrument === instrument).reduce((sum, s) => sum + Math.round(s.amount * 10), 0) / 10)
     }
   }
+})
+
+const history = JSON.parse(await readFile(new URL('../public/data/maturity-history.json', import.meta.url), 'utf8'))
+
+test('historical captures reproduce archived official rows, reference dates and fingerprints for all seven years', async () => {
+  validateMaturityHistory(history)
+  assert.deepEqual(history.snapshots.map(s => s.source.archive.capturedAt.slice(0, 4)), ['2019', '2020', '2021', '2022', '2023', '2024', '2025'])
+  for (const snapshot of history.snapshots) {
+    const raw = await readFile(new URL(`../public/${snapshot.source.rawUrl}`, import.meta.url))
+    assert.equal(createHash('sha256').update(raw).digest('hex'), snapshot.source.hash)
+    const parsed = parseTesoro(raw.toString('utf8'), true)
+    assert.deepEqual(parsed.referenceDates, snapshot.referenceDates)
+    assert.deepEqual(parsed.securities, snapshot.securities)
+    const rows = annualMaturities(snapshot.securities)
+    assert.equal(Math.round(rows.reduce((sum, row) => sum + row.total, 0) * 10),
+      snapshot.securities.reduce((sum, s) => sum + Math.round(s.amount * 10), 0))
+  }
+  // The January 2019 archive really contains December 2018 balances, not a 2019 year-end estimate.
+  assert.deepEqual(history.snapshots[0].referenceDates, { letras: '2018-12-14', bonos: '2018-12-31' })
+  const old2026 = annualMaturities(history.snapshots.at(-1).securities).find(row => row.year === 2026)
+  assert.equal(old2026.total, 129705.3)
+  assert.notEqual(old2026.total, annualMaturities(snapshot.securities).find(row => row.year === 2026).total)
+  assert.ok(history.snapshots[0].securities.some(s => !snapshot.securities.some(current => current.isin === s.isin)))
+})
+
+test('historical validation rejects missing archives, duplicates, changed origin and dates beyond capture', () => {
+  const invalidCases = [null, {}, { version: 1, snapshots: [] }, { version: 1, snapshots: [snapshot] },
+    { version: 1, snapshots: [history.snapshots[0], history.snapshots[0]] }]
+  for (const archive of [
+    null, { capturedAt: 'not-a-date', url: 'https://example.com' },
+    { ...history.snapshots[0].source.archive, url: 'https://example.com' },
+    { ...history.snapshots[0].source.archive, capturedAt: '2019-02-30T02:25:17Z' },
+    { ...history.snapshots[0].source.archive, capturedAt: '2018-01-01T00:00:00Z' },
+  ]) {
+    const data = structuredClone(history)
+    data.snapshots[0].source.archive = archive
+    invalidCases.push(data)
+  }
+  const futureReference = structuredClone(history)
+  futureReference.snapshots[0].referenceDates.letras = '2019-01-08'
+  invalidCases.push(futureReference)
+  for (const invalid of invalidCases) assert.throws(() => validateMaturityHistory(invalid))
+})
+
+test('legacy parser explicitly rejects broken archival markup, empty tables and missing reference notes', async () => {
+  const raw = await readFile(new URL(`../public/${history.snapshots.at(-1).source.rawUrl}`, import.meta.url), 'utf8')
+  for (const invalid of [
+    raw.replaceAll('Datos a', 'Sin fecha'),
+    raw.replaceAll('Importes en millones de euros', 'Importes en euros'),
+    raw.replaceAll('view-valores-del-tesoro', 'other-view'),
+    raw.replace(/<tbody>[\s\S]*?<\/tbody>/, '<tbody></tbody>'),
+  ]) assert.throws(() => parseTesoro(invalid, true))
+  assert.throws(() => parseTesoro(raw), /Tabla del Tesoro/)
 })

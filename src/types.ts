@@ -31,3 +31,22 @@ export interface ChartLine {
   color: string
   points: Point[]
 }
+export interface MaturitySecurity {
+  isin: string
+  instrument: 'letras' | 'bonos'
+  maturity: string
+  amount: number
+}
+export interface MaturitySnapshot {
+  version: 1
+  retrievedAt: string
+  source: {
+    title: string
+    url: string
+    rawUrl: string
+    hash: string
+  }
+  referenceDates: { letras: string; bonos: string }
+  unit: 'Millones de euros'
+  securities: MaturitySecurity[]
+}

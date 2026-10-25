@@ -3,9 +3,11 @@ import { computed, nextTick, onMounted, onUnmounted, ref, watch } from 'vue'
 import type { Snapshot, Series } from '../types'
 import { requiredSeries, lineFor, palette } from '../lib/data'
 import { valueAt, annualChange, yearAgo, seriesCsv } from '../lib/metrics.mjs'
+import { maturitySourceUrl } from '../lib/maturities.mjs'
 import { number, periodLabel, displayValue, dateLabel } from '../lib/format'
 import AppIcon from './AppIcon.vue'
 import TimeChart from './TimeChart.vue'
+import MaturityView from './MaturityView.vue'
 
 const props = defineProps<{ data: Snapshot }>()
 const nav = [
@@ -14,6 +16,7 @@ const nav = [
   { id: 'composicion', label: 'Tenedores y plazos', icon: 'layers', title: 'Más allá de la cifra.', subtitle: 'Quién tiene la deuda, cómo se instrumenta y qué plazos tiene.' },
   { id: 'cambios', label: 'Por qué cambia', icon: 'flow', title: 'Entender el movimiento.', subtitle: 'Del déficit a la deuda: las piezas que explican su variación.' },
   { id: 'mercados', label: 'Financiación y mercados', icon: 'chart', title: 'El pulso de la financiación.', subtitle: 'Emisiones de valores y rendimientos en el mercado secundario.' },
+  { id: 'vencimientos', label: 'Vencimientos por año', icon: 'clock', title: 'La deuda, en el calendario.', subtitle: 'Perfil anual de vencimientos de los valores del Estado publicados por el Tesoro Público.' },
   { id: 'explorador', label: 'Explorador de datos', icon: 'search', title: 'Los datos, sin barreras.', subtitle: 'Consulta, visualiza y descarga las series que hay detrás del observatorio.' },
   { id: 'metodologia', label: 'Fuentes y metodología', icon: 'book', title: 'La confianza está en el detalle.', subtitle: 'Definiciones, trazabilidad y límites para interpretar los datos con rigor.' },
 ]
@@ -192,10 +195,10 @@ const sign = (v: number) => v > 0 ? '+' : ''
     <a href="#resumen" class="brand" @click.prevent="navigate('resumen')"><span class="brand-mark"><AppIcon name="chart" :size="25" /></span><span>deuda<span class="brand-light">abierta</span><small>OBSERVATORIO DE ESPAÑA</small></span></a>
     <button class="mobile-close icon-button" aria-label="Cerrar menú" @click="menuOpen = false"><AppIcon name="close" /></button>
     <div class="nav-heading">EXPLORAR LA DEUDA</div>
-    <nav><a v-for="item in nav.slice(0, 5)" :key="item.id" :href="`#${item.id}`" :class="{ active: section === item.id }" :aria-current="section === item.id ? 'page' : undefined" @click.prevent="navigate(item.id)"><AppIcon :name="item.icon" /><span>{{ item.label }}</span><span v-if="section === item.id" class="active-dot"></span></a></nav>
+    <nav><a v-for="item in nav.slice(0, 6)" :key="item.id" :href="`#${item.id}`" :class="{ active: section === item.id }" :aria-current="section === item.id ? 'page' : undefined" @click.prevent="navigate(item.id)"><AppIcon :name="item.icon" /><span>{{ item.label }}</span><span v-if="section === item.id" class="active-dot"></span></a></nav>
     <div class="nav-heading second-heading">DATOS Y TRANSPARENCIA</div>
-    <nav><a v-for="item in nav.slice(5)" :key="item.id" :href="`#${item.id}`" :class="{ active: section === item.id }" :aria-current="section === item.id ? 'page' : undefined" @click.prevent="navigate(item.id)"><AppIcon :name="item.icon" /><span>{{ item.label }}</span></a></nav>
-    <div class="sidebar-note"><span class="small-label"><span class="status-dot"></span> DATOS OFICIALES</span><p>Información pública.<br>Una perspectiva abierta.</p><a href="https://www.bde.es" target="_blank" rel="noopener noreferrer">Banco de España <AppIcon name="external" :size="14" /></a></div>
+    <nav><a v-for="item in nav.slice(6)" :key="item.id" :href="`#${item.id}`" :class="{ active: section === item.id }" :aria-current="section === item.id ? 'page' : undefined" @click.prevent="navigate(item.id)"><AppIcon :name="item.icon" /><span>{{ item.label }}</span></a></nav>
+    <div class="sidebar-note"><span class="small-label"><span class="status-dot"></span> DATOS OFICIALES</span><p>Información pública.<br>Una perspectiva abierta.</p><a :href="section === 'vencimientos' ? maturitySourceUrl : 'https://www.bde.es'" target="_blank" rel="noopener noreferrer">{{ section === 'vencimientos' ? 'Tesoro Público' : 'Banco de España' }} <AppIcon name="external" :size="14" /></a></div>
     <div class="sidebar-footer"><span>Un proyecto independiente</span><small>Rigor en los datos. Claridad al contarlos.</small></div>
   </aside>
 
@@ -203,7 +206,7 @@ const sign = (v: number) => v > 0 ? '+' : ''
     <header class="topbar">
       <button class="mobile-toggle icon-button" aria-label="Abrir menú" :aria-expanded="menuOpen" @click="menuOpen = true"><AppIcon name="menu" /></button>
       <div class="breadcrumb">Observatorio <span>/</span> <strong>{{ currentNav.label }}</strong></div>
-      <div class="topbar-right"><span class="official-badge"><span class="status-dot"></span> Fuente: Banco de España</span><button class="icon-button" aria-label="Ir a metodología" @click="navigate('metodologia')"><AppIcon name="info" :size="18" /></button></div>
+      <div class="topbar-right"><span class="official-badge"><span class="status-dot"></span> Fuente: {{ section === 'vencimientos' ? 'Tesoro Público' : 'Banco de España' }}</span><button class="icon-button" aria-label="Ir a metodología" @click="navigate('metodologia')"><AppIcon name="info" :size="18" /></button></div>
     </header>
     <main id="main" tabindex="-1">
       <div class="page-heading">
@@ -211,9 +214,9 @@ const sign = (v: number) => v > 0 ? '+' : ''
         <button class="secondary-button share-button" @click="share"><AppIcon name="external" :size="16" /> Compartir vista</button>
       </div>
       <p v-if="feedback" role="status" class="notice">{{ feedback }}</p>
-      <p v-if="staleDays > 35" role="status" class="notice warning">La descarga tiene {{ staleDays }} días. Estos datos no se actualizan en tiempo real; ejecuta la sincronización para comprobar nuevas publicaciones.</p>
+      <p v-if="section !== 'vencimientos' && staleDays > 35" role="status" class="notice warning">La descarga tiene {{ staleDays }} días. Estos datos no se actualizan en tiempo real; ejecuta la sincronización para comprobar nuevas publicaciones.</p>
 
-      <div v-if="!['explorador', 'metodologia', 'mercados'].includes(section)" class="context-bar">
+      <div v-if="!['explorador', 'metodologia', 'mercados', 'vencimientos'].includes(section)" class="context-bar">
         <div><span class="status-dot"></span><strong>Deuda pública · PDE</strong><span class="context-divider">|</span><span>Datos trimestrales</span></div>
         <label>Periodo de referencia <select v-model="period" aria-label="Periodo de referencia"><option v-for="p in periods" :key="p" :value="p">{{ periodLabel(p) }}</option></select></label>
       </div>
@@ -293,12 +296,15 @@ const sign = (v: number) => v > 0 ? '+' : ''
         </section>
       </template>
 
+      <MaturityView v-else-if="section === 'vencimientos'" />
+
       <template v-else-if="section === 'metodologia'">
         <div class="two-columns methodology-grid"><section class="panel prose"><span class="small-label">01 · CONCEPTOS</span><h2>Qué estamos midiendo</h2><h3>Deuda pública PDE</h3><p>Deuda bruta consolidada del sector Administraciones Públicas a valor nominal, conforme al Protocolo de Déficit Excesivo y al SEC 2010. Incluye efectivo y depósitos, valores representativos de deuda y préstamos. No equivale a todos los pasivos ni a la deuda neta.</p><h3>Euros, porcentajes y puntos porcentuales</h3><p>Los importes de los paneles se expresan en miles de millones de euros; las tarjetas indican su escala. La variación interanual compara con el mismo periodo del año anterior. El cambio de deuda/PIB se expresa en puntos porcentuales, no como tasa de crecimiento.</p><h3>Consolidación y tenedores</h3><p>No se deben sumar sin ajustar los saldos de los subsectores. En el cuadro 11.13, el Banco de España está incluido en instituciones financieras y no se añade como una categoría independiente.</p></section><section class="panel prose"><span class="small-label">02 · ACTUALIZACIÓN</span><h2>Datos con trazabilidad</h2><h3>Una descarga, no un contador en directo</h3><p>Descarga realizada el {{ dateLabel(data.retrievedAt) }}. Cada serie muestra sus periodos. La fecha de descarga no es la fecha de publicación: los CSV utilizados no aportan esta última de forma inequívoca.</p><h3>Mensual y trimestral no son intercambiables</h3><p>El avance mensual se identifica por separado. Las tarjetas principales utilizan un trimestre común para deuda y ratio. Los mercados tienen su propio selector mensual; nunca se completa un dato ausente con cero.</p><h3>Revisiones históricas</h3><p>{{ data.revisions.length }} cambios respecto a la descarga anterior{{ data.previousRetrievedAt ? ` (${dateLabel(data.previousRetrievedAt)})` : ' (esta es la primera descarga)' }}. Los originales se conservan con una huella SHA-256 y la publicación del snapshot se realiza solo si toda la descarga termina correctamente.</p></section></div>
         <section class="panel"><div class="panel-header"><div><h2>Fuentes que alimentan esta versión</h2><p>{{ data.sources.length }} cuadros · {{ data.series.length }} series, incluyendo series repetidas entre cuadros.</p></div></div><div class="table-scroll"><table><caption>Ficheros descargados del Banco de España</caption><thead><tr><th>Cuadro</th><th>Contenido</th><th>Acceso</th></tr></thead><tbody><tr v-for="s in data.sources" :key="s.id"><th>{{ s.id }}</th><td>{{ s.title }}</td><td class="source-links"><a :href="s.url" target="_blank" rel="noopener noreferrer">CSV oficial ↗</a><a :href="`${importBase}${s.rawUrl}`" download>Original guardado ↓</a></td></tr></tbody></table></div></section>
-        <section class="panel"><div class="panel-header"><div><h2>Catálogo y próximos ámbitos</h2><p>El catálogo identifica conjuntos de datos; no todos están integrados en los gráficos.</p></div></div><div class="catalog-grid"><a v-for="d in data.catalog" :key="d.id" :href="d.url" target="_blank" rel="noopener noreferrer"><small>{{ d.id }} · {{ d.frecuencia }}</small><strong>{{ d.titulo }}</strong><span>{{ d.bloque }} <AppIcon name="external" :size="14" /></span></a></div><div class="info-strip"><AppIcon name="info" :size="18" /><span>Fuera del alcance actual: microdatos confidenciales BELab, deuda privada, deuda externa y calendario exacto de vencimientos. La deuda externa se solapa con los sectores público y privado; no se suma a ellos.</span></div></section>
+        <section class="panel prose"><h2>Vencimientos anuales del Tesoro</h2><p>La vista «Vencimientos por año» utiliza una fuente independiente: el listado de valores en circulación del Tesoro Público. Agrupa saldos por año de vencimiento y muestra fechas separadas para letras y bonos. No cubre toda la deuda PDE ni intereses, y los bonos indexados están sujetos a inflación futura. La vista ofrece el enlace oficial y el original descargado. Para actualizarla, ejecutar <code>npm run data:sync:tesoro</code>.</p><a class="text-button" href="#vencimientos" @click.prevent="navigate('vencimientos')">Consultar los vencimientos <AppIcon name="arrow" :size="15" /></a></section>
+        <section class="panel"><div class="panel-header"><div><h2>Catálogo y próximos ámbitos</h2><p>El catálogo identifica conjuntos de datos; no todos están integrados en los gráficos.</p></div></div><div class="catalog-grid"><a v-for="d in data.catalog" :key="d.id" :href="d.url" target="_blank" rel="noopener noreferrer"><small>{{ d.id }} · {{ d.frecuencia }}</small><strong>{{ d.titulo }}</strong><span>{{ d.bloque }} <AppIcon name="external" :size="14" /></span></a></div><div class="info-strip"><AppIcon name="info" :size="18" /><span>Fuera del alcance actual: microdatos confidenciales BELab, deuda privada, deuda externa y calendario completo de vencimientos de todas las AAPP. La deuda externa se solapa con los sectores público y privado; no se suma a ellos.</span></div></section>
       </template>
-      <footer class="page-footer"><span>Datos: Banco de España <span>·</span> Descarga: {{ dateLabel(data.retrievedAt) }}</span><span>Transparencia para entender, no para simplificar.</span></footer>
+      <footer class="page-footer"><span v-if="section === 'vencimientos'">Datos: Tesoro Público <span>·</span> Fechas y cobertura indicadas en esta vista</span><span v-else>Datos: Banco de España <span>·</span> Descarga: {{ dateLabel(data.retrievedAt) }}</span><span>Transparencia para entender, no para simplificar.</span></footer>
     </main>
   </div>
 </template>

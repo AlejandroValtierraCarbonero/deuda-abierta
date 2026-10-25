@@ -1,8 +1,8 @@
 # Deuda Abierta
 
 Observatorio de la deuda espanola construido con Vue 3, TypeScript y Vite.
-La aplicacion usa ficheros publicados por el Banco de Espana, sin datos simulados
-ni servicios de terceros. Los catalogos de las fuentes oficiales estan organizados
+Usa datos oficiales del Banco de Espana y del Tesoro Publico, sin datos simulados
+ni servicios intermediarios. Los catalogos de las fuentes oficiales estan organizados
 por organismo en [catalogos](catalogos/README.md).
 
 - [Web publicada](https://alejandrovaltierracarbonero.github.io/deuda-abierta/)
@@ -22,6 +22,7 @@ por lo que no es necesario acceder al BdE para consultar la aplicacion.
 
 ```powershell
 npm run data:sync
+npm run data:sync:tesoro
 npm test
 npm run build
 npm run preview
@@ -54,6 +55,8 @@ compilacion fallan, no se despliega y se conserva la web anterior.
 - Comparacion de dos fechas, con cambio de saldo y de ratio.
 - Subsectores de las AAPP y comparador de 17 comunidades en euros y PIB regional.
 - Tenedores, instrumentos y plazos residuales verificados.
+- Vista independiente de vencimientos anuales de valores del Estado, con barras
+  apiladas de letras y bonos/obligaciones, tabla y originales del Tesoro.
 - Cascada de conciliacion trimestral entre deficit y variacion de deuda.
 - Emisiones brutas/netas de las AAPP y rendimientos de bonos y obligaciones.
 - Explorador de todas las series integradas con busqueda, filtros, metadatos,
@@ -126,6 +129,38 @@ revisiones y retiradas en el nuevo snapshot. Una descarga fallida no reemplaza l
 ultima version valida; el comando termina con error. Los originales parciales
 de una descarga fallida pueden permanecer para diagnostico.
 
+### Vencimientos anuales del Tesoro
+
+La vista `#vencimientos` carga [su propio snapshot](public/data/maturities.json),
+independiente del BdE. [El sincronizador del Tesoro](scripts/sync-tesoro.mjs)
+descarga el [listado oficial de valores en circulacion](https://www.tesoro.es/deuda-publica/valores-del-tesoro/valores-en-circulacion)
+y agrupa una sola vez el saldo de cada ISIN por su ano de vencimiento.
+Se elige este listado porque el XLSX del perfil anual consultado contiene una
+imagen, no celdas de datos reutilizables.
+
+Ejecutar `npm run data:sync:tesoro` para actualizarlo y volver a desplegar.
+No se ejecuta con `data:sync` ni se actualiza automaticamente en Pages.
+Se conservan fechas de referencia separadas para letras y bonos/obligaciones,
+fecha de descarga, original HTML como texto `.html.txt` y huella SHA-256.
+Si cambia el formato, falta una tabla, hay importes ausentes o ISIN duplicados,
+el comando falla explicitamente sin reemplazar el snapshot valido.
+El navegador muestra errores de carga y permite reintentar.
+En equipos cuya red requiera los certificados del sistema, Node 24 permite
+ejecutar `node --use-system-ca scripts/sync-tesoro.mjs`.
+
+El grafico expresa miles de millones de euros; la tabla mantiene millones con un
+decimal, como la fuente. Incluye todos los anos entre el primer y ultimo
+vencimiento del listado, con desplazamiento horizontal y consulta por teclado.
+Un cero indica ausencia de valores con vencimiento en ese ano en este listado.
+El primer ano no incluye amortizaciones ya realizadas.
+
+**Cobertura:** letras, bonos y obligaciones publicados por el Tesoro, no toda la
+deuda del Estado ni la deuda PDE de todas las AAPP. Excluye prestamos, deuda
+autonomica/local e intereses. No se suma al saldo del BdE ni anticipa emisiones,
+reaperturas o recompras futuras. Los bonos indexados usan el saldo ajustado
+publicado, no saldo mas valor facial; su amortizacion final depende de la
+inflacion futura. Las dos fechas de referencia no son una fotografia unica.
+
 Se distingue **fecha de descarga** de **periodo de observacion**. Los CSV utilizados
 no proporcionan una fecha de publicacion inequivoca; `publishedAt` es `null`.
 Los datos pueden revisarse. El snapshot es un resultado generado: no editar a mano.
@@ -167,7 +202,9 @@ es `(cuadro, codigo)`. No representan 156 conceptos independientes.
 
 Implementadas las vistas de deuda publica, composicion, conciliacion, mercados y
 explorador. No integrados: deuda privada/externa, microdatos BELab, ayuntamientos
-individuales ni calendario exacto por emision. El catalogo incluye referencias a
+individuales ni calendario completo de vencimientos de todas las AAPP.
+Los vencimientos del Tesoro se muestran por separado con la cobertura anterior.
+El catalogo incluye referencias a
 estos ambitos, no una promesa de que esten disponibles en los paneles.
 
 Proyecto independiente, sin afiliacion al Banco de Espana. Consultar las
@@ -178,4 +215,6 @@ Proyecto independiente, sin afiliacion al Banco de Espana. Consultar las
 `npm test` comprueba CSV y codificaciones, ausencias frente a ceros, periodos,
 variaciones interanuales, exportacion, integridad de originales, cobertura
 territorial y las identidades de composicion y conciliacion de los ultimos
-40 trimestres con datos reales. `npm run build` comprueba tipos y produce el sitio.
+40 trimestres con datos reales. Tambien comprueba el parser del Tesoro, fechas,
+importes ausentes, ISIN duplicados, agregacion anual, indexacion y la integridad
+del snapshot y su original. `npm run build` comprueba tipos y produce el sitio.

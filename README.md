@@ -64,7 +64,10 @@ compilacion fallan, no se despliega y se conserva la web anterior.
 
 1. En GitHub Mobile, abre Copilot > New Session y selecciona este repositorio,
    o crea una issue y asignala a Copilot si tu cuenta tiene acceso al agente.
-2. Pide el cambio indicando: "Crea una pull request contra main. No la fusiones".
+2. Describe solamente el cambio, por ejemplo: "Anade un filtro por comunidad".
+   Las [instrucciones del repositorio](.github/copilot-instructions.md) indican
+   que debe crear una PR contra `main` y dejarla abierta, sin fusionar ni activar
+   auto-merge. No necesitas repetir esa indicacion en cada tarea.
 3. En la PR, espera a **Tests and build**. Las ejecuciones de Copilot o de
    colaboradores pueden requerir que apruebes los workflows desde GitHub.
 4. El bot publica un comentario **Vista de prueba**, con un enlace como

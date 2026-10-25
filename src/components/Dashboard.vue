@@ -258,7 +258,23 @@ const sign = (v: number) => v > 0 ? '+' : ''
 
       <template v-else-if="section === 'cambios'">
         <section class="panel"><div class="panel-header"><div><h2>Del déficit a la variación de deuda</h2><p>Conciliación del trimestre · miles de millones de euros.</p></div></div>
-          <template v-if="flowReady"><svg class="waterfall" viewBox="0 0 850 315" role="img" aria-label="Conciliación de la variación trimestral de la deuda. Valores disponibles en la tabla inferior."><line x1="50" x2="800" :y1="flowY(0)" :y2="flowY(0)" stroke="#bfc9c1" /><g v-for="(f, index) in flow" :key="f.name"><rect :x="70 + index * 190" :y="flowY(Math.max(f.start, f.end))" width="115" :height="Math.max(2, Math.abs(flowY(f.start) - flowY(f.end)))" :fill="(f.value ?? 0) >= 0 ? '#7c9b70' : '#c7956a'" rx="4" /><text :x="127 + index * 190" :y="flowY(Math.max(f.start, f.end)) - 12" text-anchor="middle">{{ number(f.value ?? 0, 2) }}</text><text :x="127 + index * 190" y="275" text-anchor="middle">{{ index === 0 ? 'Necesidad financiación' : index === 1 ? 'Activos financieros' : 'Otros ajustes' }}</text></g><rect x="640" :y="flowY(Math.max(0, flowTotal! / 1e6))" width="115" :height="Math.max(2, Math.abs(flowY(0) - flowY(flowTotal! / 1e6)))" fill="#1f5e4b" rx="4" /><text x="697" :y="flowY(Math.max(0, flowTotal! / 1e6)) - 12" text-anchor="middle">{{ number(flowTotal! / 1e6, 2) }}</text><text x="697" y="275" text-anchor="middle">Variación de deuda</text></svg>
+          <template v-if="flowReady">
+          <svg class="waterfall" viewBox="0 0 850 315" role="img" aria-label="Conciliación de la variación trimestral de la deuda. Gráfico en cascada: cada componente parte del acumulado anterior; la línea horizontal marca el cero, no un suelo. Valores disponibles en la tabla inferior.">
+            <line class="waterfall-zero" x1="50" x2="800" :y1="flowY(0)" :y2="flowY(0)" stroke="#66765c" />
+            <text x="40" :y="flowY(0) + 4" text-anchor="end">0</text>
+            <g v-for="(f, index) in flow" :key="f.name">
+              <line class="waterfall-connector" :x1="185 + index * 190" :x2="260 + index * 190" :y1="flowY(f.end)" :y2="flowY(f.end)" stroke="#8d9888" stroke-dasharray="4 4" />
+              <rect :x="70 + index * 190" :y="flowY(Math.max(f.start, f.end))" width="115" :height="Math.max(2, Math.abs(flowY(f.start) - flowY(f.end)))" :fill="f.value! >= 0 ? '#7c9b70' : '#c7956a'" rx="4">
+                <title>{{ f.name }}: {{ sign(f.value!) }}{{ number(f.value!, 2) }} mil M€. Acumulado: {{ number(f.start, 2) }} → {{ number(f.end, 2) }} mil M€.</title>
+              </rect>
+              <text :x="127 + index * 190" :y="flowY(Math.max(f.start, f.end)) - 12" text-anchor="middle">{{ sign(f.value!) }}{{ number(f.value!, 2) }}</text>
+              <text :x="127 + index * 190" y="275" text-anchor="middle">{{ index === 0 ? 'Necesidad financiación' : index === 1 ? 'Activos financieros' : 'Otros ajustes' }}</text>
+            </g>
+            <rect x="640" :y="flowY(Math.max(0, flowTotal! / 1e6))" width="115" :height="Math.max(2, Math.abs(flowY(0) - flowY(flowTotal! / 1e6)))" fill="#1f5e4b" rx="4" />
+            <text x="697" :y="flowY(Math.max(0, flowTotal! / 1e6)) - 12" text-anchor="middle">{{ sign(flowTotal!) }}{{ number(flowTotal! / 1e6, 2) }}</text>
+            <text x="697" y="275" text-anchor="middle">Variación de deuda</text>
+          </svg>
+          <p class="footnote">La línea continua marca el cero, no un suelo; su altura se adapta a los datos del trimestre. Las barras verdes suman y las naranjas restan al acumulado anterior, unido por líneas discontinuas. Por eso una barra negativa puede quedar por encima del cero o atravesarlo. La barra final muestra la variación total desde cero.</p>
           <div class="table-scroll"><table><caption>Conciliación · {{ periodLabel(period) }} · miles de millones de euros</caption><thead><tr><th>Componente</th><th>Importe</th></tr></thead><tbody><tr v-for="f in flow" :key="f.name"><th>{{ f.name }}</th><td>{{ number(f.value!, 3) }}</td></tr><tr class="total-row"><th>Variación total de deuda PDE</th><td>{{ number(flowTotal! / 1e6, 3) }}</td></tr></tbody></table></div></template><p v-else class="empty-state">La conciliación no está disponible para este periodo. Selecciona otro trimestre.</p>
           <div class="info-strip"><AppIcon name="info" :size="18" /><span>El déficit es un flujo y la deuda un saldo. La adquisición de activos financieros y otros ajustes explican por qué no varían en la misma cuantía. La necesidad de financiación se muestra con el signo utilizado en el cuadro 11.8.</span></div><div class="panel-footer"><span>Fuente: Banco de España · Cuadro 11.8</span><a :href="sourceFor('be1108').chapterUrl" target="_blank" rel="noopener noreferrer">Consultar cuadro oficial ↗</a></div>
         </section>

@@ -1,0 +1,295 @@
+{
+  "generado_en": "2026-10-25",
+  "fuente_unica": "Banco de Espana",
+  "alcance": "Catalogo inicial de informacion sobre deuda publicada por el Banco de Espana (datasets y boletin estadistico)",
+  "criterio_inclusion": [
+    "Conjuntos con deuda publica PDE del Estado y AAPP",
+    "Conjuntos directamente relacionados con endeudamiento (externo, hogares, empresas, financiacion)",
+    "Conjuntos de mercado de deuda (emisiones, rendimientos, tenencias)"
+  ],
+  "datasets": [
+    {
+      "id": "BDE-D-000003",
+      "titulo": "Deuda bruta consolidada de las Administraciones Publicas (datos anuales)",
+      "url": "https://datos.bde.es/datos/es/datasets/000/003.html",
+      "bloque": "Deuda publica - resumen",
+      "frecuencia": "Anual",
+      "series": 4,
+      "cobertura_temporal": "1994-2025",
+      "formatos": [
+        "csv",
+        "json",
+        "xlsx",
+        "html"
+      ],
+      "prioridad_mvp": "alta"
+    },
+    {
+      "id": "BDE-D-000004",
+      "titulo": "Deuda bruta consolidada de las Administraciones Publicas (datos trimestrales)",
+      "url": "https://datos.bde.es/datos/es/datasets/000/004.html",
+      "bloque": "Deuda publica - resumen",
+      "frecuencia": "Trimestral",
+      "series": 4,
+      "cobertura_temporal": "1994-10 a 2026-04",
+      "formatos": [
+        "csv",
+        "json",
+        "xlsx",
+        "html"
+      ],
+      "prioridad_mvp": "alta"
+    },
+    {
+      "id": "BDE-D-000030",
+      "titulo": "Deuda del Estado segun el Protocolo de Deficit Excesivo (PDE)",
+      "url": "https://datos.bde.es/datos/es/datasets/000/030.html",
+      "bloque": "Deuda publica - Estado",
+      "frecuencia": "Mensual",
+      "series": 15,
+      "cobertura_temporal": "1991-12 a 2026-08",
+      "formatos": [
+        "csv",
+        "xlsx",
+        "html"
+      ],
+      "prioridad_mvp": "alta"
+    },
+    {
+      "id": "BDE-D-000031",
+      "titulo": "Operaciones financieras de las Administraciones Publicas",
+      "url": "https://datos.bde.es/datos/es/datasets/000/031.html",
+      "bloque": "Deuda publica - flujo/conciliacion",
+      "frecuencia": "Trimestral",
+      "series": 29,
+      "cobertura_temporal": "1995-01 a 2026-04",
+      "formatos": [
+        "csv",
+        "xlsx",
+        "html"
+      ],
+      "prioridad_mvp": "media"
+    },
+    {
+      "id": "BDE-D-000032",
+      "titulo": "Deuda de las Administraciones Publicas segun el PDE (avance mensual)",
+      "url": "https://datos.bde.es/datos/es/datasets/000/032.html",
+      "bloque": "Deuda publica - AAPP avance",
+      "frecuencia": "Mensual",
+      "series": 40,
+      "cobertura_temporal": "1991-12 a 2026-08",
+      "formatos": [
+        "csv",
+        "xlsx",
+        "html"
+      ],
+      "prioridad_mvp": "alta"
+    },
+    {
+      "id": "BDE-D-000033",
+      "titulo": "Deuda de las Administraciones Publicas segun el PDE",
+      "url": "https://datos.bde.es/datos/es/datasets/000/033.html",
+      "bloque": "Deuda publica - AAPP detalle",
+      "frecuencia": "Trimestral",
+      "series": 733,
+      "cobertura_temporal": "1994-01 a 2026-04",
+      "formatos": [
+        "csv",
+        "xlsx",
+        "html"
+      ],
+      "prioridad_mvp": "alta"
+    },
+    {
+      "id": "BDE-D-000034",
+      "titulo": "Deuda de las Administraciones Publicas segun el PDE por sectores de contrapartida, monedas y plazos",
+      "url": "https://datos.bde.es/datos/es/datasets/000/034.html",
+      "bloque": "Deuda publica - composicion",
+      "frecuencia": "Trimestral",
+      "series": 12,
+      "cobertura_temporal": "1994-01 a 2026-04",
+      "formatos": [
+        "csv",
+        "xlsx",
+        "html"
+      ],
+      "prioridad_mvp": "alta"
+    },
+    {
+      "id": "BDE-D-000029",
+      "titulo": "Operaciones financieras del Estado",
+      "url": "https://datos.bde.es/datos/es/datasets/000/029.html",
+      "bloque": "Deuda publica - apoyo fiscal",
+      "frecuencia": "Mensual",
+      "series": 30,
+      "cobertura_temporal": "1985-01 a 2026-08",
+      "formatos": [
+        "csv",
+        "xlsx",
+        "html"
+      ],
+      "prioridad_mvp": "media"
+    },
+    {
+      "id": "BDE-D-000038",
+      "titulo": "Deuda externa",
+      "url": "https://datos.bde.es/datos/es/datasets/000/038.html",
+      "bloque": "Deuda total del pais - externa",
+      "frecuencia": "Trimestral",
+      "series": 175,
+      "cobertura_temporal": "1992-10 a 2026-04",
+      "formatos": [
+        "csv",
+        "xlsx",
+        "html"
+      ],
+      "prioridad_mvp": "media"
+    },
+    {
+      "id": "BDE-D-000005",
+      "titulo": "Cuentas Financieras de la Economia Espanola (CFEE). Actualizacion trimestral",
+      "url": "https://datos.bde.es/datos/es/datasets/000/005.html",
+      "bloque": "Endeudamiento de hogares/empresas/AAPP",
+      "frecuencia": "Trimestral",
+      "series": 82,
+      "cobertura_temporal": "1994-12 a 2026-08",
+      "formatos": [
+        "csv",
+        "xlsx",
+        "html"
+      ],
+      "prioridad_mvp": "media"
+    },
+    {
+      "id": "BDE-D-000006",
+      "titulo": "Indicadores de liquidez y financiacion de sociedades no financieras y hogares e ISFLSH",
+      "url": "https://datos.bde.es/datos/es/datasets/000/006.html",
+      "bloque": "Endeudamiento de sectores privados",
+      "frecuencia": "Mensual",
+      "series": 4685,
+      "cobertura_temporal": "1993-01 a 2026-06 (mensual); 1980-01 a 2026-04 (trimestral)",
+      "formatos": [
+        "csv",
+        "xlsx",
+        "html"
+      ],
+      "prioridad_mvp": "media"
+    },
+    {
+      "id": "BDE-D-000024",
+      "titulo": "Mercado primario de valores",
+      "url": "https://datos.bde.es/datos/es/datasets/000/024.html",
+      "bloque": "Mercado de deuda - emisiones",
+      "frecuencia": "Mensual",
+      "series": 252,
+      "cobertura_temporal": "1982-10 a 2026-09",
+      "formatos": [
+        "csv",
+        "xlsx",
+        "html"
+      ],
+      "prioridad_mvp": "media"
+    },
+    {
+      "id": "BDE-D-000025",
+      "titulo": "Mercado secundario de valores",
+      "url": "https://datos.bde.es/datos/es/datasets/000/025.html",
+      "bloque": "Mercado de deuda - tenencias y rendimientos",
+      "frecuencia": "Mensual",
+      "series": 214,
+      "cobertura_temporal": "1940-12 a 2026-09",
+      "formatos": [
+        "csv",
+        "xlsx",
+        "html"
+      ],
+      "prioridad_mvp": "media"
+    },
+    {
+      "id": "BDE-D-000062",
+      "titulo": "Microdatos de la Deuda del Sector Publico (DSP)",
+      "url": "https://datos.bde.es/datos/es/datasets/000/062.html",
+      "bloque": "Microdatos de deuda publica",
+      "frecuencia": "No publica (acceso BELab)",
+      "series": null,
+      "cobertura_temporal": "No indicada en ficha resumida",
+      "formatos": [
+        "Acceso confidencial para investigacion (BELab)"
+      ],
+      "prioridad_mvp": "baja"
+    }
+  ],
+  "boletin_estadistico": {
+    "capitulo_11_url": "https://www.bde.es/webbe/es/estadisticas/otras-clasificaciones/publicaciones/boletin-estadistico/capitulo-11.html",
+    "tablas_clave_deuda": [
+      {
+        "codigo": "11.a",
+        "titulo": "Capacidad (+) o necesidad (-) de financiacion"
+      },
+      {
+        "codigo": "11.b",
+        "titulo": "Deuda segun el Protocolo de Deficit Excesivo (PDE)"
+      },
+      {
+        "codigo": "11.1",
+        "titulo": "Capacidad/necesidad de financiacion, pasivos en circulacion y deuda PDE (importes)"
+      },
+      {
+        "codigo": "11.2",
+        "titulo": "Capacidad/necesidad de financiacion, pasivos en circulacion y deuda PDE (% PIB)"
+      },
+      {
+        "codigo": "11.3",
+        "titulo": "Capacidad/necesidad de financiacion por subsectores"
+      },
+      {
+        "codigo": "11.4",
+        "titulo": "Pasivos en circulacion y deuda PDE (importes)"
+      },
+      {
+        "codigo": "11.5",
+        "titulo": "Pasivos en circulacion y deuda PDE (% PIB)"
+      },
+      {
+        "codigo": "11.6",
+        "titulo": "Deuda PDE y activos financieros frente a AAPP (importes)"
+      },
+      {
+        "codigo": "11.7",
+        "titulo": "Deuda PDE y activos financieros frente a AAPP (% PIB)"
+      },
+      {
+        "codigo": "11.8",
+        "titulo": "Conciliacion entre necesidad de financiacion y variacion de deuda PDE (importes)"
+      },
+      {
+        "codigo": "11.9",
+        "titulo": "Conciliacion entre necesidad de financiacion y variacion de deuda PDE (% PIB)"
+      },
+      {
+        "codigo": "11.10",
+        "titulo": "Adquisicion neta de activos financieros"
+      },
+      {
+        "codigo": "11.11",
+        "titulo": "Pasivos netos contraidos"
+      },
+      {
+        "codigo": "11.12",
+        "titulo": "Deuda PDE por instrumentos"
+      },
+      {
+        "codigo": "11.13",
+        "titulo": "Deuda PDE por sectores de contrapartida, monedas y plazos residuales"
+      },
+      {
+        "codigo": "11.14",
+        "titulo": "Pasivos en circulacion"
+      },
+      {
+        "codigo": "11.15",
+        "titulo": "Deuda de empresas publicas no incluidas en el sector AAPP"
+      }
+    ]
+  }
+}

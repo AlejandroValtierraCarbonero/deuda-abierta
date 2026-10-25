@@ -1,0 +1,15 @@
+id,titulo,url,bloque,frecuencia,series,cobertura_temporal,formatos,prioridad_mvp
+BDE-D-000003,Deuda bruta consolidada de las Administraciones Publicas (datos anuales),https://datos.bde.es/datos/es/datasets/000/003.html,Deuda publica - resumen,Anual,4,1994-2025,"csv|json|xlsx|html",alta
+BDE-D-000004,Deuda bruta consolidada de las Administraciones Publicas (datos trimestrales),https://datos.bde.es/datos/es/datasets/000/004.html,Deuda publica - resumen,Trimestral,4,1994-10 a 2026-04,"csv|json|xlsx|html",alta
+BDE-D-000030,Deuda del Estado segun el Protocolo de Deficit Excesivo (PDE),https://datos.bde.es/datos/es/datasets/000/030.html,Deuda publica - Estado,Mensual,15,1991-12 a 2026-08,"csv|xlsx|html",alta
+BDE-D-000031,Operaciones financieras de las Administraciones Publicas,https://datos.bde.es/datos/es/datasets/000/031.html,Deuda publica - flujo/conciliacion,Trimestral,29,1995-01 a 2026-04,"csv|xlsx|html",media
+BDE-D-000032,Deuda de las Administraciones Publicas segun el PDE (avance mensual),https://datos.bde.es/datos/es/datasets/000/032.html,Deuda publica - AAPP avance,Mensual,40,1991-12 a 2026-08,"csv|xlsx|html",alta
+BDE-D-000033,Deuda de las Administraciones Publicas segun el PDE,https://datos.bde.es/datos/es/datasets/000/033.html,Deuda publica - AAPP detalle,Trimestral,733,1994-01 a 2026-04,"csv|xlsx|html",alta
+BDE-D-000034,Deuda de las Administraciones Publicas segun el PDE por sectores de contrapartida monedas y plazos,https://datos.bde.es/datos/es/datasets/000/034.html,Deuda publica - composicion,Trimestral,12,1994-01 a 2026-04,"csv|xlsx|html",alta
+BDE-D-000029,Operaciones financieras del Estado,https://datos.bde.es/datos/es/datasets/000/029.html,Deuda publica - apoyo fiscal,Mensual,30,1985-01 a 2026-08,"csv|xlsx|html",media
+BDE-D-000038,Deuda externa,https://datos.bde.es/datos/es/datasets/000/038.html,Deuda total del pais - externa,Trimestral,175,1992-10 a 2026-04,"csv|xlsx|html",media
+BDE-D-000005,Cuentas Financieras de la Economia Espanola CFEE Actualizacion trimestral,https://datos.bde.es/datos/es/datasets/000/005.html,Endeudamiento de hogares empresas AAPP,Trimestral,82,1994-12 a 2026-08,"csv|xlsx|html",media
+BDE-D-000006,Indicadores de liquidez y financiacion de sociedades no financieras y hogares e ISFLSH,https://datos.bde.es/datos/es/datasets/000/006.html,Endeudamiento de sectores privados,Mensual,4685,1993-01 a 2026-06 mensual y 1980-01 a 2026-04 trimestral,"csv|xlsx|html",media
+BDE-D-000024,Mercado primario de valores,https://datos.bde.es/datos/es/datasets/000/024.html,Mercado de deuda - emisiones,Mensual,252,1982-10 a 2026-09,"csv|xlsx|html",media
+BDE-D-000025,Mercado secundario de valores,https://datos.bde.es/datos/es/datasets/000/025.html,Mercado de deuda - tenencias y rendimientos,Mensual,214,1940-12 a 2026-09,"csv|xlsx|html",media
+BDE-D-000062,Microdatos de la Deuda del Sector Publico DSP,https://datos.bde.es/datos/es/datasets/000/062.html,Microdatos de deuda publica,Acceso BELab confidencial,,No indicada,acceso confidencial,baja

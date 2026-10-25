@@ -1,0 +1,1519 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-DDRL1QW2HD"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-DDRL1QW2HD');
+	</script>
+    <meta charset="utf-8" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-72690834-1"></script>
+<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("set", "developer_id.dMDhkMT", true);gtag("config", "UA-72690834-1", {"groups":"default","page_placeholder":"PLACEHOLDER_page_path","allow_ad_personalization_signals":false});</script>
+<link rel="canonical" href="https://www.tesoro.es/deuda-publica/valores-del-tesoro/valores-en-circulacion" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<style>div#sliding-popup, div#sliding-popup .eu-cookie-withdraw-banner, .eu-cookie-withdraw-tab {background: #4a4a4a} div#sliding-popup.eu-cookie-withdraw-wrapper { background: transparent; } #sliding-popup h1, #sliding-popup h2, #sliding-popup h3, #sliding-popup p, #sliding-popup label, #sliding-popup div, .eu-cookie-compliance-more-button, .eu-cookie-compliance-secondary-button, .eu-cookie-withdraw-tab { color: #ffffff;} .eu-cookie-withdraw-tab { border-color: #ffffff;}</style>
+<meta http-equiv="x-ua-compatible" content="ie=edge" />
+<link rel="icon" href="/sites/default/files/favicon_0.png" type="image/png" />
+
+    <title>Valores en circulación | Tesoro Público</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_u3dBGGohBVLi71Be3jNM2dyrZNbAnOtMAQutUa0J-kc.css?delta=0&amp;language=es&amp;theme=tesoro_bootstrap&amp;include=eJxtUFtuAyEMvBBbjoQMeJEbg7cGut3bl0RKIgV-_JgZP4Mo2u-fjnqZJJIYHRTgq1Go9hMw9aoNs_VQ0XiRVpvC4TyoktjE4oG32i6mkkzDKiruJbPvghDLTH-UY3dB5EY4XD6YoAS0K9BF3KFzM7-EZ7UP-5Uldl7s6BUhBu3ZzxxlSOh27hRnMkupqArNMTRZNH4CG4UhnQW7lAbnODov1oJ9p78ZrhRxhONYZjhWPx-vui2HaTYMJbmockQ5i71n2zPb7oJ_TzLKxg" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_fLh3UY9K1X3CtzDBvQFsUjgIvrOe0GFmyAd3MwsHqkU.css?delta=1&amp;language=es&amp;theme=tesoro_bootstrap&amp;include=eJxtUFtuAyEMvBBbjoQMeJEbg7cGut3bl0RKIgV-_JgZP4Mo2u-fjnqZJJIYHRTgq1Go9hMw9aoNs_VQ0XiRVpvC4TyoktjE4oG32i6mkkzDKiruJbPvghDLTH-UY3dB5EY4XD6YoAS0K9BF3KFzM7-EZ7UP-5Uldl7s6BUhBu3ZzxxlSOh27hRnMkupqArNMTRZNH4CG4UhnQW7lAbnODov1oJ9p78ZrhRxhONYZjhWPx-vui2HaTYMJbmockQ5i71n2zPb7oJ_TzLKxg" />
+<link rel="stylesheet" media="all" href="//fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic" />
+<link rel="stylesheet" media="all" href="//fonts.googleapis.com/css?family=Montserrat:400,700" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_DKa2zRYBgXoK66BQs2FZTR3gIu2SdKKBCqzqEfdj0zA.css?delta=4&amp;language=es&amp;theme=tesoro_bootstrap&amp;include=eJxtUFtuAyEMvBBbjoQMeJEbg7cGut3bl0RKIgV-_JgZP4Mo2u-fjnqZJJIYHRTgq1Go9hMw9aoNs_VQ0XiRVpvC4TyoktjE4oG32i6mkkzDKiruJbPvghDLTH-UY3dB5EY4XD6YoAS0K9BF3KFzM7-EZ7UP-5Uldl7s6BUhBu3ZzxxlSOh27hRnMkupqArNMTRZNH4CG4UhnQW7lAbnODov1oJ9p78ZrhRxhONYZjhWPx-vui2HaTYMJbmockQ5i71n2zPb7oJ_TzLKxg" />
+<link rel="stylesheet" media="all" href="//use.fontawesome.com/releases/v5.13.0/css/all.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_QQKyBwhvJRkrJPSJ40eslzvl89ifYJsJBAtGCJDZoR4.css?delta=6&amp;language=es&amp;theme=tesoro_bootstrap&amp;include=eJxtUFtuAyEMvBBbjoQMeJEbg7cGut3bl0RKIgV-_JgZP4Mo2u-fjnqZJJIYHRTgq1Go9hMw9aoNs_VQ0XiRVpvC4TyoktjE4oG32i6mkkzDKiruJbPvghDLTH-UY3dB5EY4XD6YoAS0K9BF3KFzM7-EZ7UP-5Uldl7s6BUhBu3ZzxxlSOh27hRnMkupqArNMTRZNH4CG4UhnQW7lAbnODov1oJ9p78ZrhRxhONYZjhWPx-vui2HaTYMJbmockQ5i71n2zPb7oJ_TzLKxg" />
+<link rel="stylesheet" media="print" href="/sites/default/files/css/css_AqHpP4ih-GFGLKzRD7CR4nW1F3cda4L2yxNOo3yS70w.css?delta=7&amp;language=es&amp;theme=tesoro_bootstrap&amp;include=eJxtUFtuAyEMvBBbjoQMeJEbg7cGut3bl0RKIgV-_JgZP4Mo2u-fjnqZJJIYHRTgq1Go9hMw9aoNs_VQ0XiRVpvC4TyoktjE4oG32i6mkkzDKiruJbPvghDLTH-UY3dB5EY4XD6YoAS0K9BF3KFzM7-EZ7UP-5Uldl7s6BUhBu3ZzxxlSOh27hRnMkupqArNMTRZNH4CG4UhnQW7lAbnODov1oJ9p78ZrhRxhONYZjhWPx-vui2HaTYMJbmockQ5i71n2zPb7oJ_TzLKxg" />
+
+    
+  </head>
+  <body class="layout-one-sidebar layout-sidebar-first page-view-valores-del-tesoro path-deuda-publica">
+    <a href="#main-content" class="visually-hidden focusable skip-link">
+      Pasar al contenido principal
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div id="page-wrapper">
+  <div id="page">
+    <header id="header" class="header" role="banner" aria-label="Site header">
+                        <nav class="navbar" id="navbar-top">
+                        
+              
+                              <div class="form-inline navbar-form ms-auto">
+                    <section class="row region region-top-header-form">
+    <div id="block-languagedropdownswitcher" class="col-sm-4 col-xs-12 block block-lang-dropdown block-language-dropdown-blocklanguage-interface">
+  
+    
+      <div class="content">
+      
+<form class="lang-dropdown-form lang_dropdown_form clearfix language_interface" id="lang_dropdown_form_lang-dropdown-form" data-drupal-selector="lang-dropdown-form-2" action="/deuda-publica/valores-del-tesoro/valores-en-circulacion" method="post" accept-charset="UTF-8">
+  
+
+
+
+
+        
+  <div class="js-form-item js-form-type-select form-type-select js-form-item-lang-dropdown-select form-item-lang-dropdown-select form-no-label mb-3">
+          <label for="edit-lang-dropdown-select" class="visually-hidden">Select your language</label>
+                    
+<select style="width:165px" class="lang-dropdown-select-element form-select" data-lang-dropdown-id="lang-dropdown-form" data-drupal-selector="edit-lang-dropdown-select" id="edit-lang-dropdown-select" name="lang_dropdown_select"><option value="es" selected="selected">Castellano</option><option value="ca">Català</option><option value="gl">Galego</option><option value="eu">Euskera</option><option value="en">English</option></select>
+                      </div>
+<input data-drupal-selector="edit-es" type="hidden" name="es" value="/deuda-publica/valores-del-tesoro/valores-en-circulacion" class="form-control" />
+<input data-drupal-selector="edit-ca" type="hidden" name="ca" value="/ca/deuda-publica/valores-del-tesoro/valores-en-circulacion" class="form-control" />
+<input data-drupal-selector="edit-gl" type="hidden" name="gl" value="/gl/deuda-publica/valores-del-tesoro/valores-en-circulacion" class="form-control" />
+<input data-drupal-selector="edit-eu" type="hidden" name="eu" value="/eu/deuda-publica/valores-del-tesoro/valores-en-circulacion" class="form-control" />
+<input data-drupal-selector="edit-en" type="hidden" name="en" value="/en/deuda-publica/valores-del-tesoro/valores-en-circulacion" class="form-control" />
+<noscript><div><button data-drupal-selector="edit-submit" type="submit" id="edit-submit" name="op" value="Ir" class="button js-form-submit form-submit btn btn-primary">Ir</button>
+</div></noscript><input autocomplete="off" data-drupal-selector="form-grlymmcbulsanim0ypq3p8rlfltzmaryqc-qxlvsa2c" type="hidden" name="form_build_id" value="form-grLYmmcBulSanIm0YpQ3p8rLFLtzmarYQC_qxLvsa2c" class="form-control" />
+<input data-drupal-selector="edit-lang-dropdown-form" type="hidden" name="form_id" value="lang_dropdown_form" class="form-control" />
+
+</form>
+
+    </div>
+  </div>
+<div class="search-block-form col-sm-8 col-xs-12 block block-search block-search-form-block" data-drupal-selector="search-block-form" id="block-tesoro-bootstrap-search-form-wide" role="search">
+  
+    
+    <div class="content container-inline">
+        <div class="content container-inline">
+      <form action="/search/node" method="get" id="search-block-form" accept-charset="UTF-8" class="search-form search-block-form form-row">
+  
+
+
+
+
+        
+  <div class="js-form-item js-form-type-search form-type-search js-form-item-keys form-item-keys form-no-label mb-3">
+          <label for="edit-keys" class="visually-hidden">Buscar</label>
+                    <input title="Escriba lo que quiere buscar." class="search_1709892668 form-search form-control" data-drupal-selector="edit-keys" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" />
+
+                      </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper mb-3" id="edit-actions"><button data-drupal-selector="edit-submit" type="submit" id="edit-submit--2" value="Buscar" class="button js-form-submit form-submit btn btn-primary">Buscar</button>
+</div>
+
+</form>
+
+    </div>
+  
+  </div>
+</div>
+
+  </section>
+
+                </div>
+                                  <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#CollapsingNavbar" aria-controls="CollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation">MENU <span class="navbar-toggler-icon"></span></button>
+          </nav>
+                <nav class="navbar navbar-expand-xl" id="navbar-logo">
+          <div class="container">
+                    <a href="https://www.mineco.gob.es/" target="_blank" title="Página del Ministerio de Economía y Empresa" rel="home" class="navbar-brand logo-ministerio">
+              <img src="/sites/default/files/logo-ministerio.jpg" alt="Página del Ministerio de Economía y Empresa" class="img-fluid d-inline-block align-top" />
+          </a>
+    <a href="/" title="Inicio" rel="home" class="navbar-brand logo-tesoro">
+              <img src="/themes/custom/tesoro_bootstrap/images/logo.png" alt="Inicio" class="img-fluid d-inline-block align-top" />
+            
+    </a>
+    
+
+          </div>
+        </nav>
+        <nav class="navbar navbar-expand-xl" id="navbar-main" data-toggle="affix">
+                                    <div class="collapse navbar-collapse justify-content-end" id="CollapsingNavbar">
+                                  <nav role="navigation" aria-labelledby="block-tesoro-bootstrap-main-menu-menu" id="block-tesoro-bootstrap-main-menu" class="block block-menu navigation menu--main">
+            
+  <h2 class="visually-hidden" id="block-tesoro-bootstrap-main-menu-menu">Menu Principal</h2>
+  
+
+        
+              <ul class="clearfix nav navbar-nav">
+                    <li class="nav-item">
+                                  <a href="/" class="nav-link nav-link--" data-drupal-link-system-path="&lt;front&gt;">Inicio</a>
+              </li>
+                <li class="nav-item menu-item--expanded dropdown">
+                                  <a href="/temas" class="nav-link nav-link--temas" data-drupal-link-system-path="node/20124">Organización</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item menu-item--collapsed">
+                                  <a href="/deuda-publica" class="nav-link--deuda-publica" data-drupal-link-system-path="deuda-publica">Deuda pública</a>
+              </li>
+                <li class="dropdown-item menu-item--collapsed">
+                                  <a href="/regulacion-financiera" class="nav-link--regulacion-financiera" data-drupal-link-system-path="node/20070">Regulación Financiera</a>
+              </li>
+                <li class="dropdown-item menu-item--collapsed">
+                                  <a href="/asuntos-internacionales" class="nav-link--asuntos-internacionales" data-drupal-link-system-path="node/20015">Asuntos internacionales</a>
+              </li>
+                <li class="dropdown-item menu-item--collapsed">
+                                  <a href="/prevencion-del-blanqueo-y-movimiento-de-efectivo" class="nav-link--prevencion-del-blanqueo-y-movimiento-de-efectivo" data-drupal-link-system-path="prevencion-del-blanqueo-y-movimiento-de-efectivo">Prevención de Blanqueo</a>
+              </li>
+                <li class="dropdown-item menu-item--collapsed">
+                                  <a href="/pagos-del-tesoro" class="nav-link--pagos-del-tesoro" data-drupal-link-system-path="node/20067">Pagos del Tesoro</a>
+              </li>
+                <li class="dropdown-item menu-item--collapsed">
+                                  <a href="/caja-general-de-depositos/caja-general-de-depositos" class="nav-link--caja-general-de-depositos-caja-general-de-depositos" data-drupal-link-system-path="node/233">Caja General de depósitos</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="nav-item menu-item--expanded dropdown">
+                                  <a href="/servicios-y-tramites" class="nav-link nav-link--servicios-y-tramites" data-drupal-link-system-path="servicios-y-tramites">Trámites</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                                  <a href="https://www.tesoropublico.gob.es/es/servicios/compra-y-venta-de-valores" class="nav-link-https--wwwtesoropublicogobes-es-servicios-compra-y-venta-de-valores" target="_blank">Compra y Venta de Valores</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="https://www.tesoropublico.gob.es/es/servicios/creadores-de-mercado" class="nav-link-https--wwwtesoropublicogobes-es-servicios-creadores-de-mercado" target="_blank">Creadores de mercado</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="https://www.tesoropublico.gob.es/es/servicios/estado-de-dep%C3%B3sitos-y-garant%C3%ADas" class="nav-link-https--wwwtesoropublicogobes-es-servicios-estado-de-depc3b3sitos-y-garantc3adas" target="_blank">SECAD (Servicio Electrónico de la Caja General de Depósitos)</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="https://www.tesoropublico.gob.es/es/servicios/integridad-de-documentos-csv" class="nav-link-https--wwwtesoropublicogobes-es-servicios-integridad-de-documentos-csv" target="_blank">Integridad de Documentos (CSV)</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="https://www.tesoropublico.gob.es/es/servicios/consulta-de-pagos-del-tesoro" class="nav-link-https--wwwtesoropublicogobes-es-servicios-consulta-de-pagos-del-tesoro" target="_blank">Consulta de pagos del Tesoro</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="https://www.tesoropublico.gob.es/es/servicios/cuentas-corrientes-fct" class="nav-link-https--wwwtesoropublicogobes-es-servicios-cuentas-corrientes-fct" target="_blank">Designación telemática de cuentas corrientes</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="https://www.tesoropublico.gob.es/es/servicios/procedimientos-administrativos-de-entidades-financieras" target="_blank" class="nav-link-https--wwwtesoropublicogobes-es-servicios-procedimientos-administrativos-de-entidades-financieras">Procedimientos administrativos de entidades financieras</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/adhesion-al-codigo-de-buenas-practicas-para-el-marco-de-renegociacion-para-clientes-con-financiacion" class="nav-link--adhesion-al-codigo-de-buenas-practicas-para-el-marco-de-renegociacion-para-clientes-con-financiacion" data-drupal-link-system-path="node/27941">Adhesión al Código de Buenas Prácticas</a>
+              </li>
+                <li class="dropdown-item menu-item--collapsed">
+                                  <a href="/codigo-de-buenas-practicas-para-deudores-hipotecarios" class="nav-link--codigo-de-buenas-practicas-para-deudores-hipotecarios" data-drupal-link-system-path="node/33513">Código de Buenas Prácticas para deudores hipotecarios</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/p%C3%A1gina-informativa-del-portafirmas-electr%C3%B3nico" class="nav-link--pc3a1gina-informativa-del-portafirmas-electrc3b3nico" data-drupal-link-system-path="node/4377">Otros procedimientos electrónicos</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/sandbox/solicitudes-para-el-espacio-controlado-de-pruebas" class="nav-link--sandbox-solicitudes-para-el-espacio-controlado-de-pruebas" data-drupal-link-system-path="node/32550">Sandbox financiero</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="nav-item">
+                                  <a href="/publicaciones" class="nav-link nav-link--publicaciones" data-drupal-link-system-path="publicaciones">Publicaciones</a>
+              </li>
+                <li class="nav-item">
+                                  <a href="/anuncios" class="nav-link nav-link--anuncios" data-drupal-link-system-path="anuncios">Noticias</a>
+              </li>
+                <li class="nav-item menu-item--expanded dropdown">
+                                  <a href="/conozcanos" class="nav-link nav-link--conozcanos" data-drupal-link-system-path="node/20143">Conózcanos</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                                  <a href="https://portal.mineco.gob.es/es-es/ministerio/Paginas/Organigrama.aspx" class="nav-link-https--portalminecogobes-es-es-ministerio-paginas-organigramaaspx" target="_blank">Organigrama</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="https://www.boe.es/eli/es/rd/2020/02/25/403/dof/spa/pdf" class="nav-link-https--wwwboees-eli-es-rd-2020-02-25-403-dof-spa-pdf" target="_blank">Competencias</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+
+                                                                  <div class="header-mobile">
+                      <section class="row region region-top-header-form-mobile">
+    <div class="search-block-form block block-search block-search-form-block" data-drupal-selector="search-block-form" id="busqueda-movil" role="search">
+  
+    
+    <div class="content container-inline">
+        <div class="content container-inline">
+      <form action="/search/node" method="get" id="search-block-form" accept-charset="UTF-8" class="search-form search-block-form form-row">
+  
+
+
+
+
+        
+  <div class="js-form-item js-form-type-search form-type-search js-form-item-keys form-item-keys form-no-label mb-3">
+          <label for="edit-keys" class="visually-hidden">Buscar</label>
+                    <input title="Escriba lo que quiere buscar." class="search_1711995956 form-search form-control" data-drupal-selector="edit-keys" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" />
+
+                      </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper mb-3" id="edit-actions--3"><button data-drupal-selector="edit-submit" type="submit" id="edit-submit--3" value="Buscar" class="button js-form-submit form-submit btn btn-primary">Buscar</button>
+</div>
+
+</form>
+
+    </div>
+  
+  </div>
+</div>
+<div class="language-switcher-language-url block block-language block-language-blocklanguage-interface" id="block-alternadordeidioma" role="navigation">
+  
+    
+      <div class="content">
+      
+
+  <nav class="links nav links-inline"><span hreflang="es" data-drupal-link-system-path="deuda-publica/valores-del-tesoro/valores-en-circulacion" class="es nav-link is-active"><a href="/deuda-publica/valores-del-tesoro/valores-en-circulacion" lang="es" class="language-link is-active" hreflang="es" data-drupal-link-system-path="deuda-publica/valores-del-tesoro/valores-en-circulacion">Castellano</a></span><span hreflang="ca" data-drupal-link-system-path="deuda-publica/valores-del-tesoro/valores-en-circulacion" class="ca nav-link"><a href="/ca/deuda-publica/valores-del-tesoro/valores-en-circulacion" lang="ca" class="language-link" hreflang="ca" data-drupal-link-system-path="deuda-publica/valores-del-tesoro/valores-en-circulacion">Català</a></span><span hreflang="gl" data-drupal-link-system-path="deuda-publica/valores-del-tesoro/valores-en-circulacion" class="gl nav-link"><a href="/gl/deuda-publica/valores-del-tesoro/valores-en-circulacion" lang="gl" class="language-link" hreflang="gl" data-drupal-link-system-path="deuda-publica/valores-del-tesoro/valores-en-circulacion">Galego</a></span><span hreflang="eu" data-drupal-link-system-path="deuda-publica/valores-del-tesoro/valores-en-circulacion" class="eu nav-link"><a href="/eu/deuda-publica/valores-del-tesoro/valores-en-circulacion" lang="eu" class="language-link" hreflang="eu" data-drupal-link-system-path="deuda-publica/valores-del-tesoro/valores-en-circulacion">Euskera</a></span><span hreflang="en" data-drupal-link-system-path="deuda-publica/valores-del-tesoro/valores-en-circulacion" class="en nav-link"><a href="/en/deuda-publica/valores-del-tesoro/valores-en-circulacion" lang="en" class="language-link" hreflang="en" data-drupal-link-system-path="deuda-publica/valores-del-tesoro/valores-en-circulacion">English</a></span></nav>
+
+    </div>
+  </div>
+
+  </section>
+
+                  </div>
+                	            </div>
+                                      <button class="navbar-toggler navbar-toggler-left collapsed sub-menu" type="button" data-bs-toggle="collapse" data-bs-target="#sidebar_first" aria-controls="sidebar_first" aria-expanded="false" aria-label="Toggle navigation">SECCIONES <span class="navbar-toggler-icon"></span></button>
+                              </nav>
+          </header>
+          <div class="highlighted">
+        <aside class="container-fluid section clearfix" role="complementary">
+            <div data-drupal-messages-fallback class="hidden"></div>
+
+
+        </aside>
+      </div>
+            <div id="main-wrapper" class="layout-main-wrapper clearfix">
+              <div id="main" class="container-fluid">
+          
+          <div class="row clearfix">
+              <main class="main-content col order-last sidebar-offcanvas" id="content" role="main">
+                <section class="section">
+                  <a id="main-content" tabindex="-1"></a>
+                    <div id="block-tesoro-bootstrap-breadcrumbs" class="block block-system block-system-breadcrumb-block">
+  
+    
+      <div class="content">
+      
+
+  <nav role="navigation" aria-label="breadcrumb" style="">
+    <ol class="breadcrumb">
+                  <li class="breadcrumb-item">
+          <a href="/">Inicio</a>
+        </li>
+                        <li class="breadcrumb-item">
+          <a href="/deuda-publica">Deuda Pública</a>
+        </li>
+                        <li class="breadcrumb-item">
+          <a href="/deuda-publica/valores-del-tesoro">Valores del Tesoro</a>
+        </li>
+              </ol>
+  </nav>
+
+    </div>
+  </div>
+<div id="block-tesoro-bootstrap-page-title" class="block block-core block-page-title-block">
+  
+    
+      <div class="content">
+      
+  <h1 class="title">Valores en circulación</h1>
+
+
+    </div>
+  </div>
+<div id="block-tesoro-bootstrap-tesoro-2019-system-main" class="block block-system block-system-main-block">
+  
+    
+      <div class="content">
+      <div class="views-element-container"><div class="view view-valores-del-tesoro view-id-valores_del_tesoro view-display-id-page_1 js-view-dom-id-ef5b4d6d3cdc69523ca5fa5a66aef19c4d59d5db1b183151a863d66e5823a122">
+  
+    
+      <div class="view-header">
+      <div class="view view-valores-del-tesoro view-id-valores_del_tesoro view-display-id-block_1 js-view-dom-id-760929610e25c4a0c1c5a569dbdc2aa64e36f888db75bec691d51cab570ba852">
+  
+    
+      <div class="view-header">
+      <h2>Letras del Tesoro en circulación</h2>
+<span class="footnote">(Importes en millones de euros)
+</span>
+    </div>
+      
+      <div class="view-content row">
+      <div class="table-responsive col">
+<table class="table views-table views-view-table cols-3">
+        <thead class=''>
+      <tr>
+                                                  <th id="view-field-codigo-isin-table-column" class="views-field views-field-field-codigo-isin" scope="col">Código ISIN</th>
+                                                  <th id="view-field-fecha-de-vencimiento-table-column" class="views-field views-field-field-fecha-de-vencimiento" scope="col">Fecha de vencimiento</th>
+                                                  <th id="view-field-saldo-en-circulacion-table-column" class="views-field views-field-field-saldo-en-circulacion" scope="col">Saldo en circulación (*)</th>
+              </tr>
+    </thead>
+    <tbody>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column" class="views-field views-field-field-codigo-isin">ES0L02405105          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column" class="views-field views-field-field-fecha-de-vencimiento">10/05/2024          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column" class="views-field views-field-field-saldo-en-circulacion">6.862,7          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column" class="views-field views-field-field-codigo-isin">ES0L02406079          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column" class="views-field views-field-field-fecha-de-vencimiento">07/06/2024          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column" class="views-field views-field-field-saldo-en-circulacion">7.660,8          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column" class="views-field views-field-field-codigo-isin">ES0L02407051          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column" class="views-field views-field-field-fecha-de-vencimiento">05/07/2024          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column" class="views-field views-field-field-saldo-en-circulacion">7.849,7          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column" class="views-field views-field-field-codigo-isin">ES0L02408091          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column" class="views-field views-field-field-fecha-de-vencimiento">09/08/2024          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column" class="views-field views-field-field-saldo-en-circulacion">7.209,2          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column" class="views-field views-field-field-codigo-isin">ES0L02409065          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column" class="views-field views-field-field-fecha-de-vencimiento">06/09/2024          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column" class="views-field views-field-field-saldo-en-circulacion">6.547,7          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column" class="views-field views-field-field-codigo-isin">ES0L02410048          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column" class="views-field views-field-field-fecha-de-vencimiento">04/10/2024          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column" class="views-field views-field-field-saldo-en-circulacion">7.235,3          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column" class="views-field views-field-field-codigo-isin">ES0L02411087          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column" class="views-field views-field-field-fecha-de-vencimiento">08/11/2024          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column" class="views-field views-field-field-saldo-en-circulacion">5.399,8          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column" class="views-field views-field-field-codigo-isin">ES0L02412069          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column" class="views-field views-field-field-fecha-de-vencimiento">06/12/2024          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column" class="views-field views-field-field-saldo-en-circulacion">4.736,7          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column" class="views-field views-field-field-codigo-isin">ES0L02501101          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column" class="views-field views-field-field-fecha-de-vencimiento">10/01/2025          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column" class="views-field views-field-field-saldo-en-circulacion">5.637,6          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column" class="views-field views-field-field-codigo-isin">ES0L02502075          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column" class="views-field views-field-field-fecha-de-vencimiento">07/02/2025          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column" class="views-field views-field-field-saldo-en-circulacion">4.085,0          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column" class="views-field views-field-field-codigo-isin">ES0L02503073          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column" class="views-field views-field-field-fecha-de-vencimiento">07/03/2025          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column" class="views-field views-field-field-saldo-en-circulacion">4.632,3          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column" class="views-field views-field-field-codigo-isin">ES0L02504113          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column" class="views-field views-field-field-fecha-de-vencimiento">11/04/2025          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column" class="views-field views-field-field-saldo-en-circulacion">3.921,8          </td>
+              </tr>
+      </tbody>
+</table>
+</div>
+
+    </div>
+  
+            <div class="view-footer">
+      <span class="footnote padding-bottom-50">(*) Datos a 19/04/2024. (El saldo en circulación de cada valor se actualiza en su correspondiente fecha de emisión). </span>
+    </div>
+    </div>
+<h2>Bonos y Obligaciones segregables en circulación</h2>
+<span class="footnote">
+(Importes en millones de euros)</span>
+    </div>
+      
+      <div class="view-content row">
+      <div class="table-responsive col">
+<table class="table views-table views-view-table cols-5">
+        <thead class=''>
+      <tr>
+                                                  <th id="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin" scope="col">Código ISIN</th>
+                                                  <th id="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento" scope="col">Fecha de vencimiento</th>
+                                                  <th id="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion" scope="col">Saldo en circulación (*)</th>
+                                                  <th id="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion" scope="col">Coeficiente de indexación</th>
+                                                  <th id="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial" scope="col">Valor facial</th>
+              </tr>
+    </thead>
+    <tbody>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES00000124W3  O 3,80**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">30/04/2024          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">21.185,8          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012H33  B 0,00**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">31/05/2024          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">19.477,4          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012E85  B 0,25**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">30/07/2024          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">17.697,6          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES00000126B2  O 2,75**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">31/10/2024          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">24.225,7          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES00000126A4  O €i 1,80**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">30/11/2024          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">16.213,6          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">1,23105          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">13.170,6          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012F92  B 0,00**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">31/01/2025          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">21.383,0          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES00000126Z1  O 1,60**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">30/04/2025          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">21.746,6          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012K38  B 0,00**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">31/05/2025          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">20.434,0          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES00000122E5  O 4,65          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">30/07/2025          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">24.189,7          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES00000127G9  O 2,15**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">31/10/2025          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">26.983,7          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012G91  B 0,00**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">31/01/2026          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">21.299,8          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES00000127Z9  O 1,95**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">30/04/2026          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">22.952,1          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012L29  B 2,80**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">31/05/2026          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">23.585,4          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES00000123C7  O 5,90          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">30/07/2026          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">24.657,9          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES00000128H5  O 1,30**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">31/10/2026          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">28.677,5          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012J15  B 0,00**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">31/01/2027          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">22.790,2          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES00000128P8  O 1,50**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">30/04/2027          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">25.929,4          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012M77 B 2,50**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">31/05/2027          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">10.745,0          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012G26  O 0,80**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">30/07/2027          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">23.143,6          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012A89  O 1,45**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">31/10/2027          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">25.155,8          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES00000128S2  O €i 0,65**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">30/11/2027          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">20.341,0          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">1,22531          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">16.600,7          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012I08  O 0,00**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">31/01/2028          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">28.408,1          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012B39  O 1,40**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">30/04/2028          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">27.973,8          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012B88  O 1,40**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">30/07/2028          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">24.851,3          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES00000124C5  O 5,15**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">31/10/2028          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">20.392,0          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000011868 O 6,00          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">31/01/2029          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">26.658,8          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012E51 O 1,45**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">30/04/2029          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">23.065,3          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012M51 B 3,50**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">31/05/2029          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">15.368,9          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012K53  O 0,80**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">30/07/2029          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">27.424,4          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012F43 O 0,60**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">31/10/2029          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">25.484,3          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012F76 O 0,50**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">30/04/2030          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">25.569,2          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES00000127A2  O 1,95**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">30/07/2030          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">24.204,5          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012G34 O 1,25**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">31/10/2030          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">27.096,5          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES00000127C8 O €i 1,00**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">30/11/2030          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">21.358,7          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">1,22767          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">17.397,8          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012H41  O 0,10**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">30/04/2031          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">26.222,1          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012I32  O 0,50**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">31/10/2031          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">25.958,1          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012K20  O 0,70**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">30/04/2032          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">24.914,9          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012411 O 5,75          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">30/07/2032          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">26.118,1          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012K61 O 2,55**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">31/10/2032          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">23.187,7          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012L52 O 3,15**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">30/04/2033          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">24.252,0          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES00000128Q6 O 2,35**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">30/07/2033          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">22.621,5          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012L78 O 3,55**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">31/10/2033          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">24.921,1          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012C12 O €i 0,70**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">30/11/2033          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">23.069,4          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">1,20731          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">19.108,1          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012M85 O 3,25 **          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">30/04/2034          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">22.440,0          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012E69 O 1,85**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">30/07/2035          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">22.008,5          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012932 O 4,20          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">31/01/2037          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">22.243,6          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012I24 O 0,85**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">30/07/2037          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">14.652,0          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012L60 O 3,90**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">30/07/2039          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">14.782,8          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012M69 O €i 2,05**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">30/11/2039          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">4.807,3          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">1,03714          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">4.635,2          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES00000120N0 O 4,90          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">30/07/2040          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">20.669,8          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012G42 O 1,20**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">31/10/2040          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">19.796,3          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES00000121S7 O 4,70          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">30/07/2041          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">21.477,2          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012J07  O 1,00** (1)          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">30/07/2042          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">11.572,4          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012K95 O 3,45**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">30/07/2043          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">13.821,0          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES00000124H4 O 5,15**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">31/10/2044          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">16.190,5          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES00000128C6 O 2,90**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">31/10/2046          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">20.000,7          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012B47 O 2,70**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">31/10/2048          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">18.858,5          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012F19 O €i 1,00**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">30/11/2048          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">406,1          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">1,18400          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">343,0          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012F27 O €i 1,05**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">30/11/2049          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">406,1          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">1,18400          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">343,0          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012G00 O 1,00**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">31/10/2050          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">22.619,1          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012F35 O €i 1,10**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">30/11/2050          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">406,1          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">1,18400          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">343,0          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012K46 O 1,90**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">31/10/2052          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">19.990,4          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012M93 O 4,00**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">31/10/2054          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">6.000,0          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES00000126D8 O 4,00**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">31/10/2064          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">1.000,0          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES00000128E2 O 3,45**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">30/07/2066          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">14.891,6          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+          <tr>
+                                                                                        <td headers="view-field-codigo-isin-table-column--2" class="views-field views-field-field-codigo-isin">ES0000012H58 O 1,45**          </td>
+                                                                                        <td headers="view-field-fecha-de-vencimiento-table-column--2" class="views-field views-field-field-fecha-de-vencimiento">31/10/2071          </td>
+                                                                                        <td headers="view-field-saldo-en-circulacion-table-column--2" class="views-field views-field-field-saldo-en-circulacion">7.828,3          </td>
+                                                                                        <td headers="view-field-coeficiente-de-indexacion-table-column" class="views-field views-field-field-coeficiente-de-indexacion">          </td>
+                                                                                        <td headers="view-field-valor-facial-table-column" class="views-field views-field-field-valor-facial">          </td>
+              </tr>
+      </tbody>
+</table>
+</div>
+
+    </div>
+  
+            <div class="view-footer">
+      <span class="footnote">(*) Datos a 09/04/2024. El saldo en circulación de cada valor se actualiza en su correspondiente fecha de emisión. En las emisiones indexadas, se actualizará también el último día de cada mes con el coeficiente de inflación correspondiente (valor facial si C.I. &lt;1). <br>(**) Emisión sujeta a las especificaciones de Cláusulas de Acción Colectiva normalizadas. <br><a href="/deuda-publica/el-programa-de-bonos-verdes-soberanos">(1) Bonos verdes</a></span>
+    </div>
+    </div>
+</div>
+
+    </div>
+  </div>
+
+
+                </section>
+                <div class="row clearfix">
+                                                    </div>
+              </main>
+                          <div class="sidebar_first sidebar col-md-3 order-first" id="sidebar_first">
+                <aside class="section" role="complementary">
+                    <nav role="navigation" aria-labelledby="block-menuprincipal-menu" id="block-menuprincipal" class="block block-menu navigation menu--main">
+      
+  <h2 id="block-menuprincipal-menu">Deuda Pública</h2>
+  
+
+        
+              <ul class="clearfix nav navbar-nav">
+                    <li class="nav-item menu-item--expanded dropdown">
+                                  <a href="/deuda-publica/valores-del-tesoro" class="nav-link nav-link--deuda-publica-valores-del-tesoro" data-drupal-link-system-path="node/145">Valores del Tesoro</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                                  <a href="/deuda-publica/valores-del-tesoro/valores-en-emision" class="nav-link--deuda-publica-valores-del-tesoro-valores-en-emision" data-drupal-link-system-path="node/4011">Valores en emisión</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/valores-del-tesoro/valores-en-circulacion" class="nav-link--deuda-publica-valores-del-tesoro-valores-en-circulacion is-active" data-drupal-link-system-path="deuda-publica/valores-del-tesoro/valores-en-circulacion">Valores en circulación</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/valores-del-tesoro/emisiones-internacionales" class="nav-link--deuda-publica-valores-del-tesoro-emisiones-internacionales" data-drupal-link-system-path="node/4177">Emisiones internacionales</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/valores-del-tesoro/emisiones-indexadas" class="nav-link--deuda-publica-valores-del-tesoro-emisiones-indexadas" data-drupal-link-system-path="node/4271">Emisiones indexadas</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="nav-item menu-item--expanded dropdown">
+                                  <a href="/deuda-publica/el-programa-de-bonos-verdes-soberanos" class="nav-link nav-link--deuda-publica-el-programa-de-bonos-verdes-soberanos" data-drupal-link-system-path="node/28756">Programa de bonos verdes</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                                  <a href="/deuda-publica/gobernanza-del-programa" class="nav-link--deuda-publica-gobernanza-del-programa" data-drupal-link-system-path="node/28761">Gobernanza del programa</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/el-marco-de-bonos-verdes-del-reino-de-espana" class="nav-link--deuda-publica-el-marco-de-bonos-verdes-del-reino-de-espana" data-drupal-link-system-path="node/34171">Marco de bonos verdes</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/informacion-para-inversores" class="nav-link--deuda-publica-informacion-para-inversores" data-drupal-link-system-path="node/28766">Información para inversores​</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="nav-item menu-item--expanded dropdown">
+                                  <a href="/deuda-publica/subastas" class="nav-link nav-link--deuda-publica-subastas" data-drupal-link-system-path="node/126">Subastas</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                                  <a href="/deuda-publica/subastas/calendario" class="nav-link--deuda-publica-subastas-calendario" data-drupal-link-system-path="deuda-publica/subastas/calendario">Calendario</a>
+              </li>
+                <li class="dropdown-item menu-item--expanded dropdown">
+                                  <a href="/deuda-publica/subastas/resultado-ultimas-subastas/letras-del-tesoro" class="nav-link--deuda-publica-subastas-resultado-ultimas-subastas-letras-del-tesoro" data-drupal-link-system-path="deuda-publica/subastas/resultado-ultimas-subastas/letras-del-tesoro">Resultado últimas subastas</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                                  <a href="/deuda-publica/subastas/resultado-ultimas-subastas/letras-del-tesoro" class="nav-link--deuda-publica-subastas-resultado-ultimas-subastas-letras-del-tesoro" data-drupal-link-system-path="deuda-publica/subastas/resultado-ultimas-subastas/letras-del-tesoro">Letras del Tesoro</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/subastas/resultado-ultimas-subastas/bonos-del-estado" class="nav-link--deuda-publica-subastas-resultado-ultimas-subastas-bonos-del-estado" data-drupal-link-system-path="deuda-publica/subastas/resultado-ultimas-subastas/bonos-del-estado">Bonos del Estado</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/subastas/resultado-ultimas-subastas/obligaciones-del-estado" class="nav-link--deuda-publica-subastas-resultado-ultimas-subastas-obligaciones-del-estado" data-drupal-link-system-path="deuda-publica/subastas/resultado-ultimas-subastas/obligaciones-del-estado">Obligaciones del Estado</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/subastas/resultado-ultimas-subastas/Bonos-y-Obligaciones-indexados" class="nav-link--deuda-publica-subastas-resultado-ultimas-subastas-bonos-y-obligaciones-indexados" data-drupal-link-system-path="deuda-publica/subastas/resultado-ultimas-subastas/Bonos-y-Obligaciones-indexados">Bonos y Obligaciones Indexados</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/subastas/resultados-subastas-anteriores" class="nav-link--deuda-publica-subastas-resultados-subastas-anteriores" data-drupal-link-system-path="deuda-publica/subastas/resultados-subastas-anteriores">Resultados subastas anteriores</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="nav-item menu-item--expanded dropdown">
+                                  <a href="/deuda-publica/informacion-inversores" class="nav-link nav-link--deuda-publica-informacion-inversores" data-drupal-link-system-path="deuda-publica/informacion-inversores">Información para inversores</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item menu-item--expanded dropdown">
+                                  <a href="/deuda-publica/mercado" class="nav-link--deuda-publica-mercado" data-drupal-link-system-path="node/174">Mercado y valores</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item menu-item--expanded dropdown">
+                                  <a href="/deuda-publica/mercado/MercadoPrimario" class="nav-link--deuda-publica-mercado-mercadoprimario" data-drupal-link-system-path="node/175">Mercado primario</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                                  <a href="/deuda-publica/mercado/mercado-primario/marco-legal" class="nav-link--deuda-publica-mercado-mercado-primario-marco-legal" data-drupal-link-system-path="node/176">Marco legal</a>
+              </li>
+                <li class="dropdown-item menu-item--expanded dropdown">
+                                  <a href="/deuda-publica/mercado/mercado-primario/instrumento" class="nav-link--deuda-publica-mercado-mercado-primario-instrumento" data-drupal-link-system-path="node/2941">Instrumentos</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                                  <a href="/deuda-publica/los-valores-del-tesoro/letras-del-tesoro" class="nav-link--deuda-publica-los-valores-del-tesoro-letras-del-tesoro" data-drupal-link-system-path="node/146">Letras del Tesoro</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/los-valores-del-tesoro/bonos-y-obligaciones-del-estado" class="nav-link--deuda-publica-los-valores-del-tesoro-bonos-y-obligaciones-del-estado" data-drupal-link-system-path="node/147">Bonos y Obligaciones del Estado</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/otras-formas-de-inversion/strips" class="nav-link--deuda-publica-otras-formas-de-inversion-strips" data-drupal-link-system-path="node/164">Strips</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/los-valores-del-tesoro/deuda-en-divisas" class="nav-link--deuda-publica-los-valores-del-tesoro-deuda-en-divisas" data-drupal-link-system-path="node/148">Deuda en divisas</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/otras-formas-de-inversion/repos" class="nav-link--deuda-publica-otras-formas-de-inversion-repos" data-drupal-link-system-path="node/163">Cesiones temporales de deuda</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="dropdown-item menu-item--expanded dropdown">
+                                  <a href="/deuda-publica/mercado/mercado-primario/procedimiento-de-emision-y-subasta-de-los-valores-del-tesoro" class="nav-link--deuda-publica-mercado-mercado-primario-procedimiento-de-emision-y-subasta-de-los-valores-del-tesoro" data-drupal-link-system-path="node/184">Procedimiento de Emisión y Subasta de los Valores del Tesoro</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                                  <a href="/deuda-publica/subastas/calendario" class="nav-link--deuda-publica-subastas-calendario" data-drupal-link-system-path="deuda-publica/subastas/calendario">Calendario</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/mercado/mercado-primario/procedimiento-de-emision-y-subasta-de-los-valores-del-tesoro/la-subasta" class="nav-link--deuda-publica-mercado-mercado-primario-procedimiento-de-emision-y-subasta-de-los-valores-del-tesoro-la-subasta" data-drupal-link-system-path="node/2954">La subasta</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/Deuda-publica/Mercado/Mercado-primario/Procedimiento-de-emision-y-subasta-de-los-valores-del-Tesoro/Convocatoria-de-la-subasta" class="nav-link--deuda-publica-mercado-mercado-primario-procedimiento-de-emision-y-subasta-de-los-valores-del-tesoro-convocatoria-de-la-subasta" data-drupal-link-system-path="node/3223">Convocatoria de la subasta</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/Deuda-publica/Mercado/Mercado-primario/Procedimiento-de-emision-y-subasta-de-los-valores-del-Tesoro/Presentacion" class="nav-link--deuda-publica-mercado-mercado-primario-procedimiento-de-emision-y-subasta-de-los-valores-del-tesoro-presentacion" data-drupal-link-system-path="node/3205">Presentación de peticiones</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/Deuda-publica/Mercado/Mercado-primario/Procedimiento-de-emision-y-subasta-de-los-valores-del-Tesoro/Publicacion-de-resultados-de-la-subasta" class="nav-link--deuda-publica-mercado-mercado-primario-procedimiento-de-emision-y-subasta-de-los-valores-del-tesoro-publicacion-de-resultados-de-la-subasta" data-drupal-link-system-path="node/3228">Publicación de los resultados de la subasta</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/mercado/mercado-primario/procedimiento-de-emision-y-subasta-de-los-valores-del-tesoro/segunda-vuelta" class="nav-link--deuda-publica-mercado-mercado-primario-procedimiento-de-emision-y-subasta-de-los-valores-del-tesoro-segunda-vuelta" data-drupal-link-system-path="node/190">Segunda vuelta</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/mercado/mercado-primario/procedimiento-de-emision-y-subasta-de-los-valores-del-tesoro/pago-del-nominal-adjudicado-en-la-subasta" class="nav-link--deuda-publica-mercado-mercado-primario-procedimiento-de-emision-y-subasta-de-los-valores-del-tesoro-pago-del-nominal-adjudicado-en-la-subasta" data-drupal-link-system-path="node/191">Pago del nominal adjudicado en la subasta</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/mercado/mercado-primario/procedimiento-de-emision-y-subasta-de-los-valores-del-tesoro/puesta-en-circulacion-de-los-valores-del-tesoro-suscritos-y-abono-en-las-cuentas-en-la-central-de-anotaciones" class="nav-link--deuda-publica-mercado-mercado-primario-procedimiento-de-emision-y-subasta-de-los-valores-del-tesoro-puesta-en-circulacion-de-los-valores-del-tesoro-suscritos-y-abono-en-las-cuentas-en-la-central-de-anotaciones" data-drupal-link-system-path="node/192">Puesta en circulación de los Valores del Tesoro suscritos y abono en cuenta</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/mercado/mercado-primario/amortizacion-de-los-valores-del-tesoro" class="nav-link--deuda-publica-mercado-mercado-primario-amortizacion-de-los-valores-del-tesoro" data-drupal-link-system-path="node/194">Amortización de los Valores del Tesoro</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/mercado/mercado-primario/canjes-de-deuda-de-estado" class="nav-link--deuda-publica-mercado-mercado-primario-canjes-de-deuda-de-estado" data-drupal-link-system-path="node/195">Canjes de Deuda de Estado</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="dropdown-item menu-item--expanded dropdown">
+                                  <a href="/deuda-publica/mercado/mercado-secundario" class="nav-link--deuda-publica-mercado-mercado-secundario" data-drupal-link-system-path="node/196">Mercado secundario</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                                  <a href="/deuda-publica/mercado/mercado-secundario/ambitos-de-negociacion" class="nav-link--deuda-publica-mercado-mercado-secundario-ambitos-de-negociacion" data-drupal-link-system-path="node/197">Ámbitos de negociación</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/mercado/mercado-secundario/tipos-de-operaciones" class="nav-link--deuda-publica-mercado-mercado-secundario-tipos-de-operaciones" data-drupal-link-system-path="node/198">Tipos de operaciones</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/mercado/mercado-secundario/sistema-de-compensacion-y-liquidacion" class="nav-link--deuda-publica-mercado-mercado-secundario-sistema-de-compensacion-y-liquidacion" data-drupal-link-system-path="node/199">Sistema de compensación, liquidación y registro en el Depositario Central de valores español</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="http://www.bmerf.es/esp/aspx/comun/posiciones.aspx?Mercado=SDP" class="nav-link-http--wwwbmerfes-esp-aspx-comun-posicionesaspxmercadosdp" target="_blank">Cotizaciones AIAF</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="dropdown-item menu-item--expanded dropdown">
+                                  <a href="/deuda-publica/mercado/participantes" class="nav-link--deuda-publica-mercado-participantes" data-drupal-link-system-path="node/201">Participantes</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                                  <a href="/Deuda-Publica/Mercado/El-Tesoro" class="nav-link--deuda-publica-mercado-el-tesoro" data-drupal-link-system-path="node/3233">El tesoro</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/Deuda-Publica/Mercado/Participantes/Banco-de-Espa%C3%B1a" class="nav-link--deuda-publica-mercado-participantes-banco-de-espac3b1a" data-drupal-link-system-path="node/3238">Banco de España</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/Deuda-Publica/Mercado/Participantes/cnmv" class="nav-link--deuda-publica-mercado-participantes-cnmv" data-drupal-link-system-path="node/3243">CNMV</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/mercado/iberclear" class="nav-link--deuda-publica-mercado-iberclear" data-drupal-link-system-path="node/226">AIAF e Iberclear</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/Deuda-Publica/Mercado/Participantes/Miembros-mercado" class="nav-link--deuda-publica-mercado-participantes-miembros-mercado" data-drupal-link-system-path="node/3253">Miembros del mercado</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/mercado/participantes/creadores-de-mercado" class="nav-link--deuda-publica-mercado-participantes-creadores-de-mercado" data-drupal-link-system-path="node/207">Creadores de Mercado</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/los-valores-del-tesoro/letras-del-tesoro" class="nav-link--deuda-publica-los-valores-del-tesoro-letras-del-tesoro" data-drupal-link-system-path="node/146">Letras del Tesoro</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/los-valores-del-tesoro/bonos-y-obligaciones-del-estado" class="nav-link--deuda-publica-los-valores-del-tesoro-bonos-y-obligaciones-del-estado" data-drupal-link-system-path="node/147">Bonos y Obligaciones del Estado</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/los-valores-del-tesoro/deuda-en-divisas" class="nav-link--deuda-publica-los-valores-del-tesoro-deuda-en-divisas" data-drupal-link-system-path="node/148">Deuda en divisas</a>
+              </li>
+                <li class="dropdown-item menu-item--expanded dropdown">
+                                  <a href="/deuda-publica/los-valores-del-tesoro/fisc" class="nav-link--deuda-publica-los-valores-del-tesoro-fisc" data-drupal-link-system-path="node/149">Fiscalidad</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item menu-item--expanded dropdown">
+                                  <a href="/Deuda-Publica/Los-Valores-del-Tesoro/Fiscalidad/Residentes" class="nav-link--deuda-publica-los-valores-del-tesoro-fiscalidad-residentes" data-drupal-link-system-path="node/3126">Residentes</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item menu-item--expanded dropdown">
+                                  <a href="/deuda-publica/los-valores-del-tesoro/fiscalidad/residentes/impuesto-sobre-la-renta-de-las-personas-fisicas" class="nav-link--deuda-publica-los-valores-del-tesoro-fiscalidad-residentes-impuesto-sobre-la-renta-de-las-personas-fisicas" data-drupal-link-system-path="node/151">Impuesto sobre la renta de las personas físicas</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                                  <a href="/deuda-publica/los-valores-del-tesoro/fiscalidad/residentes/impuesto-sobre-la-renta-de-las-personas-fisicas/tributacion-de-las-letras-del-tesoro" class="nav-link--deuda-publica-los-valores-del-tesoro-fiscalidad-residentes-impuesto-sobre-la-renta-de-las-personas-fisicas-tributacion-de-las-letras-del-tesoro" data-drupal-link-system-path="node/152">Tributación de las Letras del Tesoro</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/los-valores-del-tesoro/fiscalidad/residentes/impuesto-sobre-la-renta-de-las-personas-fisicas/tributacion-de-los-bonos-y-obligaciones-del-estado" class="nav-link--deuda-publica-los-valores-del-tesoro-fiscalidad-residentes-impuesto-sobre-la-renta-de-las-personas-fisicas-tributacion-de-los-bonos-y-obligaciones-del-estado" data-drupal-link-system-path="node/153">Tributación de los Bonos y Obligaciones del Estado</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/los-valores-del-tesoro/fiscalidad/residentes/impuesto-sobre-la-renta-de-las-personas-fisicas/tributacion-de-los-bonos-y-obligaciones-del-estado-segregables" class="nav-link--deuda-publica-los-valores-del-tesoro-fiscalidad-residentes-impuesto-sobre-la-renta-de-las-personas-fisicas-tributacion-de-los-bonos-y-obligaciones-del-estado-segregables" data-drupal-link-system-path="node/154">Tributación de los Bonos y Obligaciones del Estado Segregables</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/los-valores-del-tesoro/fiscalidad/residentes/impuesto-sobre-la-renta-de-las-personas-fisicas/tributacion-de-los-strips" class="nav-link--deuda-publica-los-valores-del-tesoro-fiscalidad-residentes-impuesto-sobre-la-renta-de-las-personas-fisicas-tributacion-de-los-strips" data-drupal-link-system-path="node/155">Tributación de los strips</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/los-valores-del-tesoro/fiscalidad/residentes/impuesto-sobre-la-renta-de-las-personas-fisicas/tributacion-de-los-valores-del-tesoro-adquiridos-en-repo" class="nav-link--deuda-publica-los-valores-del-tesoro-fiscalidad-residentes-impuesto-sobre-la-renta-de-las-personas-fisicas-tributacion-de-los-valores-del-tesoro-adquiridos-en-repo" data-drupal-link-system-path="node/156">Tributación de los Valores del Tesoro adquiridos en Repo</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/los-valores-del-tesoro/fiscalidad/residentes/impuesto-sobre-la-renta-de-las-personas-fisicas/tributacion-de-las-participaciones-en-un-fondtesoro" class="nav-link--deuda-publica-los-valores-del-tesoro-fiscalidad-residentes-impuesto-sobre-la-renta-de-las-personas-fisicas-tributacion-de-las-participaciones-en-un-fondtesoro" data-drupal-link-system-path="node/157">Tributación de las participaciones en un FondTesoro</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/los-valores-del-tesoro/fiscalidad/residentes/impuesto-sobre-sociedades" class="nav-link--deuda-publica-los-valores-del-tesoro-fiscalidad-residentes-impuesto-sobre-sociedades" data-drupal-link-system-path="node/158">Impuesto sobre sociedades</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/los-valores-del-tesoro/fiscalidad/residentes/impuesto-sobre-el-patrimonio" class="nav-link--deuda-publica-los-valores-del-tesoro-fiscalidad-residentes-impuesto-sobre-el-patrimonio" data-drupal-link-system-path="node/159">Impuesto sobre el patrimonio</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/Deuda-Publica/Los-Valores-del-Tesoro/Fiscalidad/No-Residentes" class="nav-link--deuda-publica-los-valores-del-tesoro-fiscalidad-no-residentes" data-drupal-link-system-path="node/3132">No Residentes</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="dropdown-item menu-item--expanded dropdown">
+                                  <a href="/deuda-publica/otras-formas-de-inversion" class="nav-link--deuda-publica-otras-formas-de-inversion" data-drupal-link-system-path="node/162">Otras formas de inversión</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                                  <a href="/deuda-publica/otras-formas-de-inversion/repos" class="nav-link--deuda-publica-otras-formas-de-inversion-repos" data-drupal-link-system-path="node/163">Repos</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/otras-formas-de-inversion/strips" class="nav-link--deuda-publica-otras-formas-de-inversion-strips" data-drupal-link-system-path="node/164">Strips</a>
+              </li>
+                <li class="dropdown-item menu-item--expanded dropdown">
+                                  <a href="/deuda-publica/otras-formas-de-inversion/fondtesoro" class="nav-link--deuda-publica-otras-formas-de-inversion-fondtesoro" data-drupal-link-system-path="node/166">FondTesoro</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                                  <a href="/deuda-publica/otras-formas-de-inversion/fondtesoro/caracteristicas/ventajas" class="nav-link--deuda-publica-otras-formas-de-inversion-fondtesoro-caracteristicas-ventajas" data-drupal-link-system-path="node/167">Características</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/otras-formas-de-inversion/fondtesoro/modalidades" class="nav-link--deuda-publica-otras-formas-de-inversion-fondtesoro-modalidades" data-drupal-link-system-path="node/168">Modalidades</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/otras-formas-de-inversion/fondtesoro/comisiones-y-gestoras" class="nav-link--deuda-publica-otras-formas-de-inversion-fondtesoro-comisiones-y-gestoras" data-drupal-link-system-path="node/169">Comisiones y gestoras</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/otras-formas-de-inversion/fondtesoro/lista-de-comisiones" class="nav-link--deuda-publica-otras-formas-de-inversion-fondtesoro-lista-de-comisiones" data-drupal-link-system-path="node/170">Lista de comisiones</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/otras-formas-de-inversion/fondtesoro/puntos-de-venta" class="nav-link--deuda-publica-otras-formas-de-inversion-fondtesoro-puntos-de-venta" data-drupal-link-system-path="node/171">Puntos de venta</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/otras-formas-de-inversion/fondtesoro/ventajas" class="nav-link--deuda-publica-otras-formas-de-inversion-fondtesoro-ventajas" data-drupal-link-system-path="node/172">Ventajas</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/otras-formas-de-inversion/fondtesoro/convenio-de-colaboracion" class="nav-link--deuda-publica-otras-formas-de-inversion-fondtesoro-convenio-de-colaboracion" data-drupal-link-system-path="node/173">Convenio de colaboración</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/ejemplos-de-inversion" class="nav-link--ejemplos-de-inversion" data-drupal-link-system-path="ejemplos-de-inversion">Ejemplos de inversión</a>
+              </li>
+                <li class="dropdown-item menu-item--expanded dropdown">
+                                  <a href="/deuda-publica/normativa" class="nav-link--deuda-publica-normativa" data-drupal-link-system-path="deuda-publica/normativa">Normativa</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                                  <a href="/deuda-publica/normativa-basica" class="nav-link--deuda-publica-normativa-basica" data-drupal-link-system-path="deuda-publica/normativa-basica">Normativa Básica</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/otra-normativa" class="nav-link--deuda-publica-otra-normativa" data-drupal-link-system-path="deuda-publica/otra-normativa">Otra Normativa</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="nav-item">
+                                  <a href="/deuda-publica/calificacion-crediticia" class="nav-link nav-link--deuda-publica-calificacion-crediticia" data-drupal-link-system-path="node/3359">Calificación crediticia</a>
+              </li>
+                <li class="nav-item menu-item--expanded dropdown">
+                                  <a href="/deuda-publica/creadores-de-mercado" class="nav-link nav-link--deuda-publica-creadores-de-mercado" data-drupal-link-system-path="node/20213">Creadores de Mercado</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item menu-item--expanded dropdown">
+                                  <a href="/deuda-publica/mercado/participantes/creadores-de-mercado" class="nav-link--deuda-publica-mercado-participantes-creadores-de-mercado" data-drupal-link-system-path="node/207">Creadores de Mercado</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                                  <a href="/deuda-publica/mercado/participantes/creadores-de-mercado/que-es-un-creador-de-mercado" class="nav-link--deuda-publica-mercado-participantes-creadores-de-mercado-que-es-un-creador-de-mercado" data-drupal-link-system-path="node/208">¿Qué es un Creador de Mercado?</a>
+              </li>
+                <li class="dropdown-item menu-item--expanded dropdown">
+                                  <a href="/deuda-publica/mercado/participantes/creadores-de-mercado/creadores-de-mercado-de-letras-del-tesoro" class="nav-link--deuda-publica-mercado-participantes-creadores-de-mercado-creadores-de-mercado-de-letras-del-tesoro" data-drupal-link-system-path="node/209">Creadores de Mercado de Letras del Tesoro</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                                  <a href="/deuda-publica/mercado/participantes/creadores-de-mercado/creadores-de-mercado-de-letras-del-tesoro/requisitos-para-poder-acceder-a-la-condicion-de-creador-de-mercado-de-letras" class="nav-link--deuda-publica-mercado-participantes-creadores-de-mercado-creadores-de-mercado-de-letras-del-tesoro-requisitos-para-poder-acceder-a-la-condicion-de-creador-de-mercado-de-letras" data-drupal-link-system-path="node/210">Requisitos para poder acceder a la condición de Creador de Mercado de Letras</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/mercado/participantes/creadores-de-mercado/creadores-de-mercado-de-letras-del-tesoro/procedimiento-para-el-acceso-a-la-condicion-de-creador-de-mercado-de-letras" class="nav-link--deuda-publica-mercado-participantes-creadores-de-mercado-creadores-de-mercado-de-letras-del-tesoro-procedimiento-para-el-acceso-a-la-condicion-de-creador-de-mercado-de-letras" data-drupal-link-system-path="node/211">Procedimiento para el acceso a la condición de Creador de Mercado de Letras</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/mercado/participantes/creadores-de-mercado/creadores-de-mercado-de-letras-del-tesoro/derechos-del-creador-de-mercado-de-letras" class="nav-link--deuda-publica-mercado-participantes-creadores-de-mercado-creadores-de-mercado-de-letras-del-tesoro-derechos-del-creador-de-mercado-de-letras" data-drupal-link-system-path="node/212">Derechos del Creador de Mercado de Letras</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/mercado/participantes/creadores-de-mercado/creadores-de-mercado-de-letras-del-tesoro/obligaciones-del-creador-de-mercado-de-letras" class="nav-link--deuda-publica-mercado-participantes-creadores-de-mercado-creadores-de-mercado-de-letras-del-tesoro-obligaciones-del-creador-de-mercado-de-letras" data-drupal-link-system-path="node/213">Obligaciones del Creador de Mercado de Letras</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/mercado/participantes/creadores-de-mercado/creadores-de-mercado-de-letras-del-tesoro/criterios-para-evaluar-la-actividad-del-creador-de-mercado-de-letras" class="nav-link--deuda-publica-mercado-participantes-creadores-de-mercado-creadores-de-mercado-de-letras-del-tesoro-criterios-para-evaluar-la-actividad-del-creador-de-mercado-de-letras" data-drupal-link-system-path="node/214">Criterios para evaluar la actividad del Creador de Mercado de Letras</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/mercado/participantes/creadores-de-mercado/creadores-de-mercado-de-letras-del-tesoro/perdida-de-la-condicion-de-creador-de-mercado-de-letras" class="nav-link--deuda-publica-mercado-participantes-creadores-de-mercado-creadores-de-mercado-de-letras-del-tesoro-perdida-de-la-condicion-de-creador-de-mercado-de-letras" data-drupal-link-system-path="node/215">Pérdida de la condición de Creador de Mercado de Letras</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/mercado/participantes/creadores-de-mercado/creadores-de-mercado-de-letras-del-tesoro/lista-de-creadores-de-mercado-de-letras" class="nav-link--deuda-publica-mercado-participantes-creadores-de-mercado-creadores-de-mercado-de-letras-del-tesoro-lista-de-creadores-de-mercado-de-letras" data-drupal-link-system-path="node/216">Lista de Creadores de Mercado de Letras</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="dropdown-item menu-item--expanded dropdown">
+                                  <a href="/deuda-publica/mercado/participantes/creadores-de-mercado/creadores-de-mercado-de-bonos-y-obligaciones-del-estado" class="nav-link--deuda-publica-mercado-participantes-creadores-de-mercado-creadores-de-mercado-de-bonos-y-obligaciones-del-estado" data-drupal-link-system-path="node/217">Creadores de Mercado de Bonos y Obligaciones del Estado</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                                  <a href="/deuda-publica/mercado/participantes/creadores-de-mercado/creadores-de-mercado-de-bonos-y-obligaciones-del-estado/requisitos-para-poder-acceder-a-la-condicion-de-creador-de-mercado-de-bonos-y-obligaciones" class="nav-link--deuda-publica-mercado-participantes-creadores-de-mercado-creadores-de-mercado-de-bonos-y-obligaciones-del-estado-requisitos-para-poder-acceder-a-la-condicion-de-creador-de-mercado-de-bonos-y-obligaciones" data-drupal-link-system-path="node/218">Requisitos para poder acceder a la condición de Creador de Mercado de Bonos y Obligaciones</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/mercado/participantes/creadores-de-mercado/creadores-de-mercado-de-bonos-y-obligaciones-del-estado/procedimiento-para-el-acceso-a-la-condicion-de-creador-de-mercado-de-bonos-y-obligaciones" class="nav-link--deuda-publica-mercado-participantes-creadores-de-mercado-creadores-de-mercado-de-bonos-y-obligaciones-del-estado-procedimiento-para-el-acceso-a-la-condicion-de-creador-de-mercado-de-bonos-y-obligaciones" data-drupal-link-system-path="node/219">Procedimiento para el acceso a la condición de Creador de Mercado de Bonos y Obligaciones</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/mercado/participantes/creadores-de-mercado/creadores-de-mercado-de-bonos-y-obligaciones-del-estado/derechos-del-creador-de-mercado-de-bonos-y-obligaciones" class="nav-link--deuda-publica-mercado-participantes-creadores-de-mercado-creadores-de-mercado-de-bonos-y-obligaciones-del-estado-derechos-del-creador-de-mercado-de-bonos-y-obligaciones" data-drupal-link-system-path="node/220">Derechos del Creador de Mercado de Bonos y Obligaciones</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/mercado/participantes/creadores-de-mercado/creadores-de-mercado-de-bonos-y-obligaciones-del-estado/obligaciones-del-creador-de-mercado-de-bonos-y-obligaciones" class="nav-link--deuda-publica-mercado-participantes-creadores-de-mercado-creadores-de-mercado-de-bonos-y-obligaciones-del-estado-obligaciones-del-creador-de-mercado-de-bonos-y-obligaciones" data-drupal-link-system-path="node/221">Obligaciones del Creador de Mercado de Bonos y Obligaciones</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/mercado/participantes/creadores-de-mercado/creadores-de-mercado-de-bonos-y-obligaciones-del-estado/criterios-para-evaluar-la-actividad-del-creador-de-mercado-de-bonos-y-obligaciones" class="nav-link--deuda-publica-mercado-participantes-creadores-de-mercado-creadores-de-mercado-de-bonos-y-obligaciones-del-estado-criterios-para-evaluar-la-actividad-del-creador-de-mercado-de-bonos-y-obligaciones" data-drupal-link-system-path="node/222">Criterios para evaluar la actividad del Creador de Mercado de Bonos y Obligaciones</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/mercado/participantes/creadores-de-mercado/creadores-de-mercado-de-bonos-y-obligaciones-del-estado/perdida-de-la-condicion-de-creador-de-mercado-de-bonos-y-obligaciones" class="nav-link--deuda-publica-mercado-participantes-creadores-de-mercado-creadores-de-mercado-de-bonos-y-obligaciones-del-estado-perdida-de-la-condicion-de-creador-de-mercado-de-bonos-y-obligaciones" data-drupal-link-system-path="node/223">Pérdida de la condición de Creador de Mercado de Bonos y Obligaciones</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/mercado/participantes/creadores-de-mercado/creadores-de-mercado-de-bonos-y-obligaciones-del-estado/lista-de-creadores-de-mercado-de-bonos-y-obligaciones" class="nav-link--deuda-publica-mercado-participantes-creadores-de-mercado-creadores-de-mercado-de-bonos-y-obligaciones-del-estado-lista-de-creadores-de-mercado-de-bonos-y-obligaciones" data-drupal-link-system-path="node/224">Lista de Creadores de Mercado de Bonos y Obligaciones</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="dropdown-item menu-item--expanded dropdown">
+                                  <a href="/deuda-publica/mercado/participantes/creadores-de-mercado/creadores-de-mercado-de-bonos-y-obligaciones-del-estado/creadores-de-mercado-mas-activos" class="nav-link--deuda-publica-mercado-participantes-creadores-de-mercado-creadores-de-mercado-de-bonos-y-obligaciones-del-estado-creadores-de-mercado-mas-activos" data-drupal-link-system-path="node/225">Creadores de Mercado más activos</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                                  <a href="/deuda-publica/mercado/participantes/creadores-de-mercado/creadores-de-mercado-de-bonos-y-obligaciones-del-estado/creadores-de-mercado-mas-activos/2023" class="nav-link--deuda-publica-mercado-participantes-creadores-de-mercado-creadores-de-mercado-de-bonos-y-obligaciones-del-estado-creadores-de-mercado-mas-activos-2023" data-drupal-link-system-path="node/37675">2023</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/mercado/participantes/creadores-de-mercado/creadores-de-mercado-de-bonos-y-obligaciones-del-estado/creadores-de-mercado-mas-activos/2022" class="nav-link--deuda-publica-mercado-participantes-creadores-de-mercado-creadores-de-mercado-de-bonos-y-obligaciones-del-estado-creadores-de-mercado-mas-activos-2022" data-drupal-link-system-path="node/37674">2022</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/mercado/participantes/creadores-de-mercado/creadores-de-mercado-de-bonos-y-obligaciones-del-estado/creadores-de-mercado-mas-activos/2021" class="nav-link--deuda-publica-mercado-participantes-creadores-de-mercado-creadores-de-mercado-de-bonos-y-obligaciones-del-estado-creadores-de-mercado-mas-activos-2021" data-drupal-link-system-path="node/31413">2021</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/mercado/participantes/creadores-de-mercado/creadores-de-mercado-de-bonos-y-obligaciones-del-estado/creadores-de-mercado-mas-activos/2020" class="nav-link--deuda-publica-mercado-participantes-creadores-de-mercado-creadores-de-mercado-de-bonos-y-obligaciones-del-estado-creadores-de-mercado-mas-activos-2020" data-drupal-link-system-path="node/27360">2020</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/mercado/participantes/creadores-de-mercado/creadores-de-mercado-de-bonos-y-obligaciones-del-estado/creadores-de-mercado-mas-activos/2019" class="nav-link--deuda-publica-mercado-participantes-creadores-de-mercado-creadores-de-mercado-de-bonos-y-obligaciones-del-estado-creadores-de-mercado-mas-activos-2019" data-drupal-link-system-path="node/22096">2019</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/mercado/participantes/creadores-de-mercado/creadores-de-mercado-de-bonos-y-obligaciones-del-estado/creadores-de-mercado-mas-activos/2018" class="nav-link--deuda-publica-mercado-participantes-creadores-de-mercado-creadores-de-mercado-de-bonos-y-obligaciones-del-estado-creadores-de-mercado-mas-activos-2018" data-drupal-link-system-path="node/19992">2018</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/mercado/participantes/creadores-de-mercado/creadores-de-mercado-de-bonos-y-obligaciones-del-estado/creadores-de-mercado-mas-activos/2017" class="nav-link--deuda-publica-mercado-participantes-creadores-de-mercado-creadores-de-mercado-de-bonos-y-obligaciones-del-estado-creadores-de-mercado-mas-activos-2017" data-drupal-link-system-path="node/19991">2017</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/mercado/participantes/creadores-de-mercado/creadores-de-mercado-de-bonos-y-obligaciones-del-estado/creadores-de-mercado-mas-activos/2016" class="nav-link--deuda-publica-mercado-participantes-creadores-de-mercado-creadores-de-mercado-de-bonos-y-obligaciones-del-estado-creadores-de-mercado-mas-activos-2016" data-drupal-link-system-path="node/10656">2016</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/mercado/participantes/creadores-de-mercado/creadores-de-mercado-de-bonos-y-obligaciones-del-estado/creadores-de-mercado-mas-activos/2015" class="nav-link--deuda-publica-mercado-participantes-creadores-de-mercado-creadores-de-mercado-de-bonos-y-obligaciones-del-estado-creadores-de-mercado-mas-activos-2015" data-drupal-link-system-path="node/5589">2015</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="dropdown-item">
+                                  <a href="https://www.tesoropublico.gob.es/es/servicios/creadores-de-mercado" class="nav-link-https--wwwtesoropublicogobes-es-servicios-creadores-de-mercado" target="_blank">Zona restringida de creadores de mercado</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="nav-item menu-item--expanded dropdown">
+                                  <a href="/deuda-publica/estadisticas" class="nav-link nav-link--deuda-publica-estadisticas" data-drupal-link-system-path="node/20212">Estadísticas</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                                  <a href="/deuda-publica/estad%C3%ADsticas-mensuales" class="nav-link--deuda-publica-estadc3adsticas-mensuales" data-drupal-link-system-path="node/5687">Estadísticas Mensuales</a>
+              </li>
+                <li class="dropdown-item menu-item--expanded dropdown">
+                                  <a href="/deuda-publica/hist%C3%B3rico-de-estad%C3%ADsticas" class="nav-link--deuda-publica-histc3b3rico-de-estadc3adsticas" data-drupal-link-system-path="node/5607">Histórico de Estadísticas</a>
+                        <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                                  <a href="/deuda-publica/historico-de-estadisticas/subastas" class="nav-link--deuda-publica-historico-de-estadisticas-subastas" data-drupal-link-system-path="node/5612">Subastas</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/historico-de-estadisticas/tipos-marginales" class="nav-link--deuda-publica-historico-de-estadisticas-tipos-marginales" data-drupal-link-system-path="node/5613">Tipos marginales</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/historico-de-estadisticas/tipo-inter%C3%A9s-medio" class="nav-link--deuda-publica-historico-de-estadisticas-tipo-interc3a9s-medio" data-drupal-link-system-path="node/5614">Tipo interés medio</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/hist%C3%B3rico-de-estadisticas/tipos-efectivos-nuevas-emisiones" class="nav-link--deuda-publica-histc3b3rico-de-estadisticas-tipos-efectivos-nuevas-emisiones" data-drupal-link-system-path="node/5615">Tipos efectivos nuevas emisiones</a>
+              </li>
+                <li class="dropdown-item">
+                                  <a href="/deuda-publica/historico-de-estadisticas/Distribuci%C3%B3n-por-tenedores-2002-2017" class="nav-link--deuda-publica-historico-de-estadisticas-distribucic3b3n-por-tenedores-2002-2017" data-drupal-link-system-path="node/13861">Distribución por tenedores</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                <li class="nav-item">
+                                  <a href="/coordinacion-de-emisores-publicos/resoluciones-de-prudencia-financiera" class="nav-link nav-link--coordinacion-de-emisores-publicos-resoluciones-de-prudencia-financiera" data-drupal-link-system-path="node/10456">Prudencia Financiera</a>
+              </li>
+                <li class="nav-item">
+                                  <a href="/deuda-publica/glosario" class="nav-link nav-link--deuda-publica-glosario" data-drupal-link-system-path="deuda-publica/glosario">Glosario</a>
+              </li>
+                <li class="nav-item">
+                                  <a href="/deuda-publica/preguntas-frecuentes" class="nav-link nav-link--deuda-publica-preguntas-frecuentes" data-drupal-link-system-path="deuda-publica/preguntas-frecuentes">Preguntas frecuentes</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+<div id="block-atencionalinversorsidebar" class="link-container block block-block-content block-block-content43a621c2-3e7d-47cf-ac24-33f312b81b57">
+  
+      <h2>Atención al inversor</h2>
+    
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">  <span class="block-subtitle">Sólo para inversores de Deuda Pública</span>
+  
+  <div class="link-container">
+    <div class="row">
+<div class="col-xs-12 col-sm-3 col-md-12">
+        <div class="link nowrap">
+          <span class="icon icon-phone"></span>
+         <a href="tel:060" class="tel">060</a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-3 col-md-12">
+				<div class="link nowrap">
+          <span class="icon icon-mail"></span>
+          <a href="mailto:consdeuda@economia.gob.es" target="_blank">consdeuda@economia.gob.es</a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-3 col-md-12">
+        <div class="link nowrap">
+          <span class="icon icon-email"></span>
+          <a href="/contacto">Consúltanos</a>
+        </div>
+      </div>
+ <div class="col-xs-12 col-sm-3 col-md-12">
+        <div class="link nowrap">
+          <span class="icon icon-chat"></span>
+          <a href="/te-llamamos">Te llamamos</a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-3 col-md-12">
+        <div class="link nowrap">
+          <span class="icon icon-mail"></span>
+          <a href="/suscribete-al-boletin">Suscríbete al boletín</a>
+        </div>
+      </div>
+    </div>
+  </div></div>
+      
+    </div>
+  </div>
+
+
+                </aside>
+              </div>
+                                  </div>
+        </div>
+          </div>
+        <footer class="site-footer">
+              <div class="container-fluid">
+                      <div class="site-footer__top clearfix">
+                <section class="row region region-footer-first">
+    <nav role="navigation" aria-labelledby="block-tesoro-bootstrap-tesoro-2019-menu-menu-menu-footer-menu" id="block-tesoro-bootstrap-tesoro-2019-menu-menu-menu-footer" class="block block-menu navigation menu--menu-menu-footer">
+      
+  <h2 id="block-tesoro-bootstrap-tesoro-2019-menu-menu-menu-footer-menu">Enlaces legales</h2>
+  
+
+        
+              <ul class="clearfix nav">
+                    <li class="nav-item">
+                <a href="/accesibilidad" class="nav-link nav-link--accesibilidad" data-drupal-link-system-path="node/5929">Accesibilidad</a>
+              </li>
+                <li class="nav-item">
+                <a href="/sitemap" class="nav-link nav-link--sitemap" data-drupal-link-system-path="sitemap">Mapa Web</a>
+              </li>
+                <li class="nav-item">
+                <a href="/aviso-legal" class="nav-link nav-link--aviso-legal" data-drupal-link-system-path="node/5918">Aviso legal</a>
+              </li>
+                <li class="nav-item">
+                <a href="/politica-de-privacidad" class="nav-link nav-link--politica-de-privacidad" data-drupal-link-system-path="node/284">Política de privacidad</a>
+              </li>
+                <li class="nav-item">
+                <a href="/cookies" class="nav-link nav-link--cookies" data-drupal-link-system-path="node/6115">Cookies</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+<div id="block-tesoro-bootstrap-ministeriopie" class="block block-block-content block-block-contentc7c8a8fb-7b8f-4df6-bb1f-ea6a4d6b6104">
+  
+    
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><strong>Dirección General del Tesoro y Política Financiera</strong>&nbsp;<br>Paseo del Prado, 6 - 28014 Madrid</p><img src="/sites/default/files/inline-images/logo-ministerio-pie.png" data-entity-uuid="7bdf27ff-b14d-479c-bab0-efa2cad82f36" data-entity-type="file" alt="Logo ministerio de economía, comercio y empresa" width="326"><p>© Secretaría General del Tesoro y Financiación Internacional</p></div>
+      
+    </div>
+  </div>
+
+  </section>
+
+                <section class="row region region-footer-second">
+    <div id="block-tesoro-bootstrap-tesoro-2019-block-34" class="block block-block-content block-block-contentfe640acc-2b9a-45d4-8d41-9f1bbd045b7c">
+  
+    
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2>Enlaces rápidos</h2>
+
+<ul>
+	<li><a href="/adhesion-al-codigo-de-buenas-practicas-para-el-marco-de-renegociacion-para-clientes-con-financiacion">Adhesión al Código de Buenas Prácticas</a></li>
+	<li><a href="/sandbox/solicitudes-para-el-espacio-controlado-de-pruebas">Espacio controlado de pruebas (sandbox financiero)</a></li>
+	<li><a href="https://portal.mineco.gob.es/es-es/ministerio/brexit">Brexit</a></li>
+	<!--<li><a href="/asuntos-internacionales/autoridad-macroprudencial-consejo-de-estabilidad-financiera">AMCESFI Autoridad Macroprudencial</a></li>-->
+	<li><a href="/normativa">Normativa</a></li>
+	<li><a href="/coordinacion-de-emisores-publicos/resoluciones-de-prudencia-financiera">Prudencia financiera</a></li>
+	<li><a href="/deuda-publica/subastas/calendario">Calendario de días hábiles</a></li>
+	<li><a href="/quejas-y-sugerencias">Quejas y sugerencias</a></li>
+	<li><a href="https://citaprevia.administracionelectronica.gob.es/icpplus/citar?i=es&amp;org=TESORO" target="_blank">Cita previa: Registro y Certificados electrónicos</a></li>
+</ul>
+</div>
+      
+    </div>
+  </div>
+
+  </section>
+
+                <section class="row region region-footer-third">
+    <div id="block-tesoro-bootstrap-tesoro-2019-block-36" class="block block-block-content block-block-content140f9651-0276-4dab-bffa-8763619680b1">
+  
+    
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2>Atención al Inversor</h2><p>(Sólo para Inversores de Deuda Pública)</p><p><a class="tel" href="tel:060">060</a></p><p><a href="mailto:consdeuda@economia.gob.es" target="_blank">consdeuda@economia.gob.es</a></p><ul><li><a href="/ejemplos-de-inversion">Ejemplos de Inversión</a></li></ul><p><a class="h2" href="/suscribete-al-boletin">Suscríbete al boletín</a></p></div>
+      
+    </div>
+  </div>
+
+  </section>
+
+            </div>
+                            </div>
+          </footer>
+  </div>
+</div>
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"deuda-publica\/valores-del-tesoro\/valores-en-circulacion","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"es"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"google_analytics":{"account":"UA-72690834-1","trackOutbound":true,"trackMailto":true,"trackTel":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"eu_cookie_compliance":{"cookie_policy_version":"1.0.0","popup_enabled":true,"popup_agreed_enabled":false,"popup_hide_agreed":false,"popup_clicking_confirmation":false,"popup_scrolling_confirmation":false,"popup_html_info":"\u003Cdiv aria-labelledby=\u0022popup-text\u0022  class=\u0022eu-cookie-compliance-banner eu-cookie-compliance-banner-info eu-cookie-compliance-banner--categories\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info eu-cookie-compliance-content\u0022\u003E\n        \u003Cdiv id=\u0022popup-text\u0022 class=\u0022eu-cookie-compliance-message\u0022 role=\u0022document\u0022\u003E\n      \u003Ch2\u003EUtilizamos cookies en nuestro sitio web para ofrecerle la mejor experiencia de usuario, recordando sus preferencias y visitas repetidas.\u003C\/h2\u003E\u003Cp\u003EAl hacer clic en \u0022Aceptar\u0022, acepta el uso de TODAS las cookies.\u003C\/p\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button\u0022\u003EM\u00e1s info\u003C\/button\u003E\n          \u003C\/div\u003E\n\n          \u003Cdiv id=\u0022eu-cookie-compliance-categories\u0022 class=\u0022eu-cookie-compliance-categories\u0022\u003E\n                  \u003Cdiv class=\u0022eu-cookie-compliance-category\u0022\u003E\n            \u003Cdiv\u003E\n              \u003Cinput type=\u0022checkbox\u0022 name=\u0022cookie-categories\u0022 class=\u0022eu-cookie-compliance-category-checkbox\u0022 id=\u0022cookie-category-necesarias\u0022\n                     value=\u0022necesarias\u0022\n                      checked                       disabled  \u003E\n              \u003Clabel for=\u0022cookie-category-necesarias\u0022\u003ENecesarias\u003C\/label\u003E\n            \u003C\/div\u003E\n                          \u003Cdiv class=\u0022eu-cookie-compliance-category-description\u0022\u003E\u003Cp\u003ELas cookies necesarias son absolutamente esenciales para que el sitio web funcione correctamente. Esta categor\u00eda solo incluye cookies que garantizan funcionalidades b\u00e1sicas y caracter\u00edsticas de seguridad del sitio web. Estas cookies no almacenan ninguna informaci\u00f3n personal.\u003C\/p\u003E\u003C\/div\u003E\n                      \u003C\/div\u003E\n                  \u003Cdiv class=\u0022eu-cookie-compliance-category\u0022\u003E\n            \u003Cdiv\u003E\n              \u003Cinput type=\u0022checkbox\u0022 name=\u0022cookie-categories\u0022 class=\u0022eu-cookie-compliance-category-checkbox\u0022 id=\u0022cookie-category-no_necesarias\u0022\n                     value=\u0022no_necesarias\u0022\n                      checked                       \u003E\n              \u003Clabel for=\u0022cookie-category-no_necesarias\u0022\u003ENo Necesarias\u003C\/label\u003E\n            \u003C\/div\u003E\n                          \u003Cdiv class=\u0022eu-cookie-compliance-category-description\u0022\u003E\u003Cp\u003ELas cookies que pueden no ser particularmente necesarias para el funcionamiento del sitio web y se utilizan espec\u00edficamente para recopilar datos personales del usuario a trav\u00e9s de an\u00e1lisis, anuncios y otros contenidos incrustados se denominan cookies no necesarias. Es obligatorio obtener el consentimiento del usuario antes de ejecutar estas cookies en el sitio web.\u003C\/p\u003E\u003C\/div\u003E\n                      \u003C\/div\u003E\n                          \u003Cdiv class=\u0022eu-cookie-compliance-categories-buttons\u0022\u003E\n            \u003Cbutton type=\u0022button\u0022\n                    class=\u0022eu-cookie-compliance-save-preferences-button  button button--small\u0022\u003EGuardar preferencias\u003C\/button\u003E\n          \u003C\/div\u003E\n              \u003C\/div\u003E\n    \n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022eu-cookie-compliance-buttons eu-cookie-compliance-has-categories\u0022\u003E\n            \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-default-button button button--small button--primary\u0022\u003EAceptar todas las cookies\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-button visually-hidden button button--small\u0022\u003EWithdraw consent\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","use_mobile_message":false,"mobile_popup_html_info":"\u003Cdiv aria-labelledby=\u0022popup-text\u0022  class=\u0022eu-cookie-compliance-banner eu-cookie-compliance-banner-info eu-cookie-compliance-banner--categories\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info eu-cookie-compliance-content\u0022\u003E\n        \u003Cdiv id=\u0022popup-text\u0022 class=\u0022eu-cookie-compliance-message\u0022 role=\u0022document\u0022\u003E\n      \n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button\u0022\u003EM\u00e1s info\u003C\/button\u003E\n          \u003C\/div\u003E\n\n          \u003Cdiv id=\u0022eu-cookie-compliance-categories\u0022 class=\u0022eu-cookie-compliance-categories\u0022\u003E\n                  \u003Cdiv class=\u0022eu-cookie-compliance-category\u0022\u003E\n            \u003Cdiv\u003E\n              \u003Cinput type=\u0022checkbox\u0022 name=\u0022cookie-categories\u0022 class=\u0022eu-cookie-compliance-category-checkbox\u0022 id=\u0022cookie-category-necesarias\u0022\n                     value=\u0022necesarias\u0022\n                      checked                       disabled  \u003E\n              \u003Clabel for=\u0022cookie-category-necesarias\u0022\u003ENecesarias\u003C\/label\u003E\n            \u003C\/div\u003E\n                          \u003Cdiv class=\u0022eu-cookie-compliance-category-description\u0022\u003E\u003Cp\u003ELas cookies necesarias son absolutamente esenciales para que el sitio web funcione correctamente. Esta categor\u00eda solo incluye cookies que garantizan funcionalidades b\u00e1sicas y caracter\u00edsticas de seguridad del sitio web. Estas cookies no almacenan ninguna informaci\u00f3n personal.\u003C\/p\u003E\u003C\/div\u003E\n                      \u003C\/div\u003E\n                  \u003Cdiv class=\u0022eu-cookie-compliance-category\u0022\u003E\n            \u003Cdiv\u003E\n              \u003Cinput type=\u0022checkbox\u0022 name=\u0022cookie-categories\u0022 class=\u0022eu-cookie-compliance-category-checkbox\u0022 id=\u0022cookie-category-no_necesarias\u0022\n                     value=\u0022no_necesarias\u0022\n                      checked                       \u003E\n              \u003Clabel for=\u0022cookie-category-no_necesarias\u0022\u003ENo Necesarias\u003C\/label\u003E\n            \u003C\/div\u003E\n                          \u003Cdiv class=\u0022eu-cookie-compliance-category-description\u0022\u003E\u003Cp\u003ELas cookies que pueden no ser particularmente necesarias para el funcionamiento del sitio web y se utilizan espec\u00edficamente para recopilar datos personales del usuario a trav\u00e9s de an\u00e1lisis, anuncios y otros contenidos incrustados se denominan cookies no necesarias. Es obligatorio obtener el consentimiento del usuario antes de ejecutar estas cookies en el sitio web.\u003C\/p\u003E\u003C\/div\u003E\n                      \u003C\/div\u003E\n                          \u003Cdiv class=\u0022eu-cookie-compliance-categories-buttons\u0022\u003E\n            \u003Cbutton type=\u0022button\u0022\n                    class=\u0022eu-cookie-compliance-save-preferences-button  button button--small\u0022\u003EGuardar preferencias\u003C\/button\u003E\n          \u003C\/div\u003E\n              \u003C\/div\u003E\n    \n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022eu-cookie-compliance-buttons eu-cookie-compliance-has-categories\u0022\u003E\n            \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-default-button button button--small button--primary\u0022\u003EAceptar todas las cookies\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-button visually-hidden button button--small\u0022\u003EWithdraw consent\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","mobile_breakpoint":768,"popup_html_agreed":false,"popup_use_bare_css":false,"popup_height":"auto","popup_width":"100%","popup_delay":1000,"popup_link":"\/cookies","popup_link_new_window":true,"popup_position":false,"fixed_top_position":true,"popup_language":"es","store_consent":false,"better_support_for_screen_readers":false,"cookie_name":"","reload_page":false,"domain":"","domain_all_sites":false,"popup_eu_only":false,"popup_eu_only_js":false,"cookie_lifetime":100,"cookie_session":0,"set_cookie_session_zero_on_disagree":0,"disagree_do_not_show_popup":false,"method":"categories","automatic_cookies_removal":true,"allowed_cookies":"","withdraw_markup":"\u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-tab\u0022\u003EPrivacy settings\u003C\/button\u003E\n\u003Cdiv aria-labelledby=\u0022popup-text\u0022 class=\u0022eu-cookie-withdraw-banner\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info eu-cookie-compliance-content\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022 class=\u0022eu-cookie-compliance-message\u0022 role=\u0022document\u0022\u003E\n      \u003Ch2\u003EWe use cookies on this site to enhance your user experience\u003C\/h2\u003E\u003Cp\u003EYou have given your consent for us to set cookies.\u003C\/p\u003E\n    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022eu-cookie-compliance-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-button  button button--small button--primary\u0022\u003EWithdraw consent\u003C\/button\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","withdraw_enabled":false,"reload_options":0,"reload_routes_list":"","withdraw_button_on_info_popup":false,"cookie_categories":["necesarias","no_necesarias"],"cookie_categories_details":{"necesarias":{"uuid":"1af824dc-0a8a-49e8-b46b-32b546951559","langcode":"es","status":true,"dependencies":[],"id":"necesarias","label":"Necesarias","description":"Las cookies necesarias son absolutamente esenciales para que el sitio web funcione correctamente. Esta categor\u00eda solo incluye cookies que garantizan funcionalidades b\u00e1sicas y caracter\u00edsticas de seguridad del sitio web. Estas cookies no almacenan ninguna informaci\u00f3n personal.","checkbox_default_state":"required","weight":-9},"no_necesarias":{"uuid":"d958c983-deb4-4b4e-8ef4-09f8ccad8f96","langcode":"es","status":true,"dependencies":[],"id":"no_necesarias","label":"No Necesarias","description":"Las cookies que pueden no ser particularmente necesarias para el funcionamiento del sitio web y se utilizan espec\u00edficamente para recopilar datos personales del usuario a trav\u00e9s de an\u00e1lisis, anuncios y otros contenidos incrustados se denominan cookies no necesarias. Es obligatorio obtener el consentimiento del usuario antes de ejecutar estas cookies en el sitio web.","checkbox_default_state":"checked","weight":-8}},"enable_save_preferences_button":true,"cookie_value_disagreed":"0","cookie_value_agreed_show_thank_you":"1","cookie_value_agreed":"2","containing_element":"body","settings_tab_enabled":false,"olivero_primary_button_classes":" button button--small button--primary","olivero_secondary_button_classes":" button button--small","close_button_action":"close_banner","open_by_default":true,"modules_allow_popup":true,"hide_the_banner":false,"geoip_match":true},"ajaxTrustedUrl":{"\/search\/node":true,"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true},"lang_dropdown":{"lang-dropdown-form":{"key":"lang-dropdown-form"}},"user":{"uid":0,"permissionsHash":"200eceeb5831f95e3ebac959cef41771a131570157f470d57d7d3ad240c80aee"}}</script>
+<script src="/sites/default/files/js/js_podN_B1FH4v_-DLawHLodcbVLUIBGQSJxQkdszC5-qI.js?scope=footer&amp;delta=0&amp;language=es&amp;theme=tesoro_bootstrap&amp;include=eJxtUFtuAyEMvBBbjoQMeJEbg7cGut3bl0RKIgV-_JgZP4Mo2u-fjnqZJJIYHRTgq1Go9hMw9aoNs_VQ0XiRVpvC4TyoktjE4oG32i6mkkzDKiruJbPvghDLTH-UY3dB5EY4XD6YoAS0K9BF3KFzM7-EZ7UP-5Uldl7s6BUhBu3ZzxxlSOh27hRnMkupqArNMTRZNH4CG4UhnQW7lAbnODov1oJ9p78ZrhRxhONYZjhWPx-vui2HaTYMJbmockQ5i71n2zPb7oJ_TzLKxg"></script>
+<script src="//cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/sites/default/files/js/js_WQ1hi_p6-6ozMpjaBIH7oDPm1VdYid832E8_UUodgVY.js?scope=footer&amp;delta=2&amp;language=es&amp;theme=tesoro_bootstrap&amp;include=eJxtUFtuAyEMvBBbjoQMeJEbg7cGut3bl0RKIgV-_JgZP4Mo2u-fjnqZJJIYHRTgq1Go9hMw9aoNs_VQ0XiRVpvC4TyoktjE4oG32i6mkkzDKiruJbPvghDLTH-UY3dB5EY4XD6YoAS0K9BF3KFzM7-EZ7UP-5Uldl7s6BUhBu3ZzxxlSOh27hRnMkupqArNMTRZNH4CG4UhnQW7lAbnODov1oJ9p78ZrhRxhONYZjhWPx-vui2HaTYMJbmockQ5i71n2zPb7oJ_TzLKxg"></script>
+<script src="/modules/contrib/eu_cookie_compliance/js/eu_cookie_compliance.min.js?v=10.1.6" defer></script>
+<script src="/sites/default/files/js/js_NlgcyOjzDkB2lrlwsLG1eur5fzQjrvU2O5gWOej-OHc.js?scope=footer&amp;delta=4&amp;language=es&amp;theme=tesoro_bootstrap&amp;include=eJxtUFtuAyEMvBBbjoQMeJEbg7cGut3bl0RKIgV-_JgZP4Mo2u-fjnqZJJIYHRTgq1Go9hMw9aoNs_VQ0XiRVpvC4TyoktjE4oG32i6mkkzDKiruJbPvghDLTH-UY3dB5EY4XD6YoAS0K9BF3KFzM7-EZ7UP-5Uldl7s6BUhBu3ZzxxlSOh27hRnMkupqArNMTRZNH4CG4UhnQW7lAbnODov1oJ9p78ZrhRxhONYZjhWPx-vui2HaTYMJbmockQ5i71n2zPb7oJ_TzLKxg"></script>
+
+  </body>
+</html>

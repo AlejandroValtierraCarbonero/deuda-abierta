@@ -46,7 +46,7 @@ for (const [id, title] of Object.entries(tables)) {
   allSeries.push(...series)
   console.log(`${id}: ${series.length} series`)
 }
-const catalog = JSON.parse(await readFile(`${root}catalogo_bde_deuda.json`, 'utf8'))
+const catalog = JSON.parse(await readFile(`${root}catalogos/banco-de-espana/catalogo_datasets_deuda.json`, 'utf8'))
 const previousPath = new URL('snapshot.json', out)
 let previous = null
 try { previous = JSON.parse(await readFile(previousPath, 'utf8')) }

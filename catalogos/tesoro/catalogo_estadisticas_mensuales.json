@@ -1,0 +1,175 @@
+{
+  "generado_en": "2026-10-25",
+  "organismo": "Tesoro Publico",
+  "catalogo_url": "https://www.tesoro.es/deuda-publica/estad%C3%ADsticas-mensuales",
+  "edicion_observada": "Septiembre 2026",
+  "alcance": "Estadisticas mensuales de deuda del Estado, financiacion y mercado secundario.",
+  "items": [
+    {
+      "id": "TES-00",
+      "titulo": "Boletin completo de estadisticas",
+      "categoria": "Boletin",
+      "formatos": ["PDF"],
+      "url_pdf": "https://www.tesoro.es/documents/d/tesoro/estadisticas_es-pdf",
+      "descripcion": "Compendio mensual de las tablas estadisticas del Tesoro."
+    },
+    {
+      "id": "TES-01",
+      "titulo": "Deuda del Estado: nominal en circulacion",
+      "categoria": "Deuda en circulacion",
+      "formatos": ["PDF", "XLSX"],
+      "url_pdf": "https://www.tesoro.es/documents/d/tesoro/01-pdf",
+      "url_xlsx": "https://www.tesoro.es/documents/d/tesoro/01-xlsx"
+    },
+    {
+      "id": "TES-02",
+      "titulo": "Vida media de la Deuda del Estado",
+      "categoria": "Deuda en circulacion",
+      "formatos": ["PDF", "XLSX"],
+      "url_pdf": "https://www.tesoro.es/documents/d/tesoro/02-pdf",
+      "url_xlsx": "https://www.tesoro.es/documents/d/tesoro/02-xlsx"
+    },
+    {
+      "id": "TES-03",
+      "titulo": "Tipo de interes medio de la Deuda del Estado en moneda nacional",
+      "categoria": "Deuda en circulacion",
+      "formatos": ["PDF", "XLSX"],
+      "url_pdf": "https://www.tesoro.es/documents/d/tesoro/03-pdf",
+      "url_xlsx": "https://www.tesoro.es/documents/d/tesoro/03-xlsx"
+    },
+    {
+      "id": "TES-04",
+      "titulo": "Distribucion por tenedores: Letras del Tesoro",
+      "categoria": "Tenedores",
+      "formatos": ["PDF", "XLSX"],
+      "url_pdf": "https://www.tesoro.es/documents/d/tesoro/04-pdf",
+      "url_xlsx": "https://www.tesoro.es/documents/d/tesoro/04-xlsx"
+    },
+    {
+      "id": "TES-05",
+      "titulo": "Distribucion por tenedores: Bonos y Obligaciones del Estado no segregados",
+      "categoria": "Tenedores",
+      "formatos": ["PDF", "XLSX"],
+      "url_pdf": "https://www.tesoro.es/documents/d/tesoro/05-pdf",
+      "url_xlsx": "https://www.tesoro.es/documents/d/tesoro/05-xlsx"
+    },
+    {
+      "id": "TES-06",
+      "titulo": "Distribucion por tenedores: Bonos y Obligaciones del Estado segregados",
+      "categoria": "Tenedores",
+      "formatos": ["PDF", "XLSX"],
+      "url_pdf": "https://www.tesoro.es/documents/d/tesoro/06-pdf",
+      "url_xlsx": "https://www.tesoro.es/documents/d/tesoro/06-xlsx"
+    },
+    {
+      "id": "TES-07",
+      "titulo": "Total de deuda del Estado no segregada y principales de deuda segregada",
+      "categoria": "Tenedores",
+      "formatos": ["PDF", "XLSX"],
+      "url_pdf": "https://www.tesoro.es/documents/d/tesoro/07-pdf",
+      "url_xlsx": "https://www.tesoro.es/documents/d/tesoro/07-xlsx"
+    },
+    {
+      "id": "TES-08",
+      "titulo": "Deuda del Estado en divisas: distribucion por monedas",
+      "categoria": "Deuda en circulacion",
+      "formatos": ["PDF", "XLSX"],
+      "url_pdf": "https://www.tesoro.es/documents/d/tesoro/08-pdf",
+      "url_xlsx": "https://www.tesoro.es/documents/d/tesoro/08-xlsx"
+    },
+    {
+      "id": "TES-09",
+      "titulo": "Evolucion de la financiacion del Estado",
+      "categoria": "Financiacion",
+      "formatos": ["PDF", "XLSX"],
+      "url_pdf": "https://www.tesoro.es/documents/d/tesoro/09-pdf",
+      "url_xlsx": "https://www.tesoro.es/documents/d/tesoro/09-xlsx"
+    },
+    {
+      "id": "TES-10",
+      "titulo": "Tipos efectivos de interes de las nuevas emisiones en moneda nacional",
+      "categoria": "Financiacion",
+      "formatos": ["PDF", "XLSX"],
+      "url_pdf": "https://www.tesoro.es/documents/d/tesoro/10-pdf",
+      "url_xlsx": "https://www.tesoro.es/documents/d/tesoro/10-xlsx"
+    },
+    {
+      "id": "TES-11",
+      "titulo": "Subastas de Deuda del Estado: nominal emitido y rendimientos",
+      "categoria": "Financiacion",
+      "formatos": ["PDF", "XLSX"],
+      "url_pdf": "https://www.tesoro.es/documents/d/tesoro/11-pdf",
+      "url_xlsx": "https://www.tesoro.es/documents/d/tesoro/11-xlsx",
+      "cobertura_indicada": "2025-2026"
+    },
+    {
+      "id": "TES-12",
+      "titulo": "Tipos marginales de interes: Letras, Bonos, Obligaciones y deuda indexada",
+      "categoria": "Financiacion",
+      "formatos": ["PDF", "XLSX"],
+      "url_pdf": "https://www.tesoro.es/documents/d/tesoro/12-pdf",
+      "url_xlsx": "https://www.tesoro.es/documents/d/tesoro/12-xlsx",
+      "cobertura_indicada": "2007-2026"
+    },
+    {
+      "id": "TES-13",
+      "titulo": "Financiacion neta del Estado",
+      "categoria": "Financiacion",
+      "formatos": ["PDF", "XLSX"],
+      "url_pdf": "https://www.tesoro.es/documents/d/tesoro/13-pdf",
+      "url_xlsx": "https://www.tesoro.es/documents/d/tesoro/13-xlsx",
+      "cobertura_indicada": "2025-2026"
+    },
+    {
+      "id": "TES-14",
+      "titulo": "Perfil anual de vencimientos de la deuda viva",
+      "categoria": "Vencimientos",
+      "formatos": ["PDF", "XLSX"],
+      "url_pdf": "https://www.tesoro.es/documents/d/tesoro/14-pdf",
+      "url_xlsx": "https://www.tesoro.es/documents/d/tesoro/14-xlsx",
+      "cobertura_indicada": "2026-2071",
+      "descripcion": "Calendario agregado por anos; no es un calendario detallado de cada emision."
+    },
+    {
+      "id": "TES-15",
+      "titulo": "Negociacion total por tipo de instrumento (medias de cifras diarias)",
+      "categoria": "Mercado secundario",
+      "formatos": ["PDF", "XLSX"],
+      "url_pdf": "https://www.tesoro.es/documents/d/tesoro/15-pdf",
+      "url_xlsx": "https://www.tesoro.es/documents/d/tesoro/15-xlsx"
+    },
+    {
+      "id": "TES-16",
+      "titulo": "Mercado electronico y segundo escalon (suma de cifras diarias)",
+      "categoria": "Mercado secundario",
+      "formatos": ["PDF", "XLSX"],
+      "url_pdf": "https://www.tesoro.es/documents/d/tesoro/16-pdf",
+      "url_xlsx": "https://www.tesoro.es/documents/d/tesoro/16-xlsx"
+    },
+    {
+      "id": "TES-17",
+      "titulo": "Deuda segregada: segregacion, reconstitucion y negociacion total por meses",
+      "categoria": "Mercado secundario",
+      "formatos": ["PDF", "XLSX"],
+      "url_pdf": "https://www.tesoro.es/documents/d/tesoro/17-pdf",
+      "url_xlsx": "https://www.tesoro.es/documents/d/tesoro/17-xlsx"
+    },
+    {
+      "id": "TES-18",
+      "titulo": "Deuda segregada con clausulas de accion colectiva (CAC)",
+      "categoria": "Mercado secundario",
+      "formatos": ["PDF", "XLSX"],
+      "url_pdf": "https://www.tesoro.es/documents/d/tesoro/18-pdf",
+      "url_xlsx": "https://www.tesoro.es/documents/d/tesoro/18-xlsx"
+    },
+    {
+      "id": "TES-19",
+      "titulo": "Deuda segregada sin clausulas de accion colectiva (CAC)",
+      "categoria": "Mercado secundario",
+      "formatos": ["PDF", "XLSX"],
+      "url_pdf": "https://www.tesoro.es/documents/d/tesoro/19-pdf",
+      "url_xlsx": "https://www.tesoro.es/documents/d/tesoro/19-xlsx"
+    }
+  ],
+  "nota": "Los enlaces son puntos de descarga oficiales y sirven la edicion publicada actualmente; los periodos y titulos de algunos ficheros cambian con la actualizacion mensual."
+}

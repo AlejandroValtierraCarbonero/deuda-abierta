@@ -1,0 +1,34 @@
+{
+  "generado_en": "2026-10-25",
+  "organismo": "Intervencion General de la Administracion del Estado (IGAE)",
+  "fuente": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Paginas/ianotificaciondeficit.aspx",
+  "alcance": "Publicaciones y contenidos de la notificacion espanola de deficit y deuda a la Union Europea en el marco del PDE.",
+  "frecuencia_notificacion": "Dos veces al ano: antes del 1 de abril y del 1 de octubre.",
+  "items": [
+    {
+      "id": "IGAE-PDE-NOTIFICACIONES",
+      "titulo": "Notificaciones de deficit y deuda a la Union Europea",
+      "descripcion": "Ediciones de primavera y otono con las cifras notificadas de deficit y deuda de las Administraciones Publicas. La notificacion incluye los cuatro anos naturales anteriores y una prevision para el ano en curso.",
+      "periodicidad": "Semestral",
+      "formatos": "Documentos y cuadros de notificacion segun la edicion",
+      "url": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Paginas/ianotificaciondeficit.aspx"
+    },
+    {
+      "id": "IGAE-PDE-CUADROS",
+      "titulo": "Cuadros armonizados del Procedimiento de Deficit Excesivo",
+      "descripcion": "Deficit/superavit, deuda y datos asociados de las Administraciones Publicas y sus subsectores; ofrecen un marco coherente con los agregados presupuestarios nacionales y relacionan el deficit con la variacion de la deuda.",
+      "periodicidad": "Semestral, dentro de cada notificacion",
+      "formatos": "Cuadros armonizados; presentacion disponible segun la edicion",
+      "url": "https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Paginas/ianotificaciondeficit.aspx"
+    },
+    {
+      "id": "IGAE-PDE-METODOLOGIA",
+      "titulo": "Metodologia de contabilidad nacional aplicada al PDE",
+      "descripcion": "Definiciones y criterios de compilacion de las cifras notificadas. La deuda PDE es deuda bruta consolidada, valorada a valor nominal, e incluye efectivo y depositos (AF.2), valores representativos de deuda (AF.3) y prestamos (AF.4), con arreglo al SEC 2010.",
+      "periodicidad": "Metadatos y documentacion de referencia",
+      "formatos": "Documentacion metodologica y cuadros asociados",
+      "url": "https://ec.europa.eu/eurostat/cache/metadata/en/gov_10dd_esms.htm"
+    }
+  ],
+  "nota": "Catalogo descriptivo: los nombres y formatos concretos de los ficheros pueden cambiar entre notificaciones. La pagina de IGAE es el punto de acceso a las publicaciones espanolas."
+}

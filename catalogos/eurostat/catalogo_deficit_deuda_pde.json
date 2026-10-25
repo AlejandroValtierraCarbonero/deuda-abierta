@@ -1,0 +1,73 @@
+{
+  "generado_en": "2026-10-25",
+  "organismo": "Eurostat",
+  "dataset": "gov_10dd_edpt1",
+  "titulo": "Government deficit/surplus, debt and associated data",
+  "url_datos": "https://ec.europa.eu/eurostat/databrowser/view/gov_10dd_edpt1/default/table",
+  "url_api": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/gov_10dd_edpt1",
+  "url_metadatos": "https://ec.europa.eu/eurostat/cache/metadata/en/gov_10dd_esms.htm",
+  "ultima_actualizacion_verificada": "2026-10-21",
+  "items": [
+    {
+      "id": "EUROSTAT-PDE-DEUDA",
+      "indicador": "GD",
+      "titulo": "Deuda bruta consolidada de las Administraciones Publicas",
+      "descripcion": "Deuda al cierre del periodo, consolidada y valorada a valor nominal. Incluye efectivo y depositos (AF.2), valores representativos de deuda (AF.3) y prestamos (AF.4).",
+      "unidades": ["PC_GDP", "MIO_EUR"],
+      "periodicidad": ["A"]
+    },
+    {
+      "id": "EUROSTAT-PDE-DEFICIT",
+      "indicador": "B9",
+      "titulo": "Capacidad (+) / necesidad (-) de financiacion de las Administraciones Publicas",
+      "descripcion": "Saldo publico de contabilidad nacional; el signo negativo representa necesidad de financiacion.",
+      "unidades": ["PC_GDP", "MIO_EUR"],
+      "periodicidad": ["A"]
+    },
+    {
+      "id": "EUROSTAT-PDE-COMPARACION",
+      "titulo": "Comparacion armonizada entre paises",
+      "descripcion": "Permite consultar los indicadores de deuda y deficit para Espana, cada Estado miembro y agregados como la UE-27 y la zona del euro.",
+      "geografias_relevantes": ["ES", "EU27_2020", "EA20"],
+      "url_datos": "https://ec.europa.eu/eurostat/databrowser/view/gov_10dd_edpt1/default/table"
+    }
+  ],
+  "dimensiones_de_consulta": [
+    {
+      "codigo": "freq",
+      "nombre": "Frecuencia",
+      "valores_relevantes": ["A: anual", "Q: trimestral"]
+    },
+    {
+      "codigo": "unit",
+      "nombre": "Unidad",
+      "valores_relevantes": ["PC_GDP: porcentaje del PIB", "MIO_EUR: millones de euros"]
+    },
+    {
+      "codigo": "sector",
+      "nombre": "Sector institucional",
+      "valores_relevantes": ["S13: Administraciones Publicas", "Subsectores de las Administraciones Publicas"]
+    },
+    {
+      "codigo": "na_item",
+      "nombre": "Indicador de cuentas nacionales (SEC 2010)",
+      "valores_relevantes": ["GD: deuda bruta consolidada", "B9: capacidad/necesidad de financiacion"]
+    },
+    {
+      "codigo": "geo",
+      "nombre": "Pais o agregado geografico",
+      "valores_relevantes": ["Estados miembros", "EU27_2020: Union Europea", "Agregado de zona del euro"]
+    },
+    {
+      "codigo": "time",
+      "nombre": "Periodo",
+      "valores_relevantes": ["Series historicas y periodos notificados disponibles en el dataset"]
+    }
+  ],
+  "marco": {
+    "notificacion": "Los Estados miembros notifican los datos PDE dos veces al ano, antes del 1 de abril y del 1 de octubre.",
+    "metodologia": "SEC 2010 y definiciones armonizadas del Procedimiento de Deficit Excesivo.",
+    "nota_comparabilidad": "Los agregados de la UE y de la zona del euro se calculan con los datos nacionales y la consolidacion que corresponda."
+  },
+  "nota": "Catalogo de metadatos y puntos de acceso; Eurostat es la referencia para los valores y revisiones vigentes."
+}

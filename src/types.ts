@@ -51,3 +51,19 @@ export interface MaturitySnapshot {
   unit: 'Millones de euros'
   securities: MaturitySecurity[]
 }
+export interface FinanceMonth {
+  month: number
+  status: 'actual' | 'forecast'
+  emissions: number | null
+  redemptions: number
+  net: number | null
+  instruments: { letras: number; bonos: number; obligaciones: number; indexados: number; resto: number }
+}
+export interface FinanceSnapshot {
+  version: 1
+  retrievedAt: string
+  publication: string
+  unit: 'Millones de euros'
+  source: { url: string; pdfUrl: string; rawUrl: string; hash: string; bulletinRawUrl: string; bulletinHash: string }
+  years: { year: number; months: FinanceMonth[] }[]
+}
